@@ -1,9 +1,7 @@
 ﻿using DataAccess.Models;
-using System;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataAccess
 {
@@ -11,14 +9,47 @@ namespace DataAccess
     {
         private readonly PRN221_Warehouse _context;
 
-        public AccountDAO()
+        public AccountDAO(PRN221_Warehouse context)
         {
-            _context = new PRN221_Warehouse();
+            _context = context;
         }
 
-        public Account GetAccountByID(int id)
+        public List<Account> GetAllAccounts()
         {
-            return _context.Accounts.Find(id);
+            return _context.Accounts.ToList();
         }
+
+        public Account GetAccountById(int accountId)
+        {
+            return _context.Accounts.Find(accountId);
+        }
+
+        public void AddAccount(Account account)
+        {
+
+                _context.Accounts.Add(account);
+                _context.SaveChanges();
+            
+        }
+
+
+        public void UpdateAccount(Account account)
+        {
+            _context.Entry(account).State = EntityState.Modified;
+            _context.SaveChanges();
+        }
+
+
+        public List<Account> SearchAccounts(string query)
+        {
+            return _context.Accounts
+                .Where(a => a.Email.Contains(query) || a.Name.Contains(query))
+                .ToList();
+        }
+
+
+
+
+
     }
 }

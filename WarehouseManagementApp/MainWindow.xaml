@@ -5,7 +5,9 @@
         WindowStartupLocation="CenterScreen"
         Loaded="Window_Loaded">
     <Grid>
+        
         <TabControl SelectionChanged="TabControl_SelectionChanged">
+            
             <TabItem Header="Lots">
                 <Grid Margin="10">
                     <Grid.RowDefinitions>
@@ -58,6 +60,8 @@
                         <Button x:Name="AddLotButton" Content="Add Lot" Width="100" Margin="5" Background="LightGreen" Click="AddLot_Click"/>
                         <Button x:Name="EditLotButton" Content="Edit Lot" Width="100" Margin="5" Background="LightYellow" Click="EditLot_Click"/>
                         <Button x:Name="ViewDetailsButton" Content="View Details" Width="100" Margin="5" Background="LightBlue" Click="ViewDetails_Click"/>
+                        <Button Content="Log Out" Width="100"  Click="LogoutButton_Click" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10"/>
+
                     </StackPanel>
                 </Grid>
             </TabItem>
@@ -116,6 +120,8 @@
                         <Button x:Name="AddStockOutButton" Content="Add Stock Out" Width="100" Margin="5" Background="LightGreen" Click="AddStockOut_Click"/>
                         <Button x:Name="EditStockOutButton" Content="Edit Stock Out" Width="100" Margin="5" Background="LightYellow" Click="EditStockOut_Click"/>
                         <Button x:Name="ViewStockOutDetailsButton" Content="View Details" Width="100" Margin="5" Background="LightBlue" Click="ViewStockOutDetails_Click"/>
+                        <Button Content="Log Out" Width="100"  Click="LogoutButton_Click" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10"/>
+
                     </StackPanel>
                 </Grid>
             </TabItem>
@@ -168,6 +174,8 @@
                         <Button x:Name="AddCategoryButton" Content="Add Category" Width="100" Margin="5" Background="LightGreen" Click="AddCategory_Click"/>
                         <Button x:Name="EditCategoryButton" Content="Edit Category" Width="100" Margin="5" Background="LightYellow" Click="EditCategory_Click"/>
                         <Button x:Name="DeleteCategoryButton" Content="Delete Category" Width="100" Margin="5" Background="LightCoral" Click="DeleteCategory_Click"/>
+                        <Button Content="Log Out" Width="100"  Click="LogoutButton_Click" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10"/>
+
                     </StackPanel>
                 </Grid>
             </TabItem>
@@ -221,6 +229,8 @@
                         <Button x:Name="EditStorageAreaButton" Content="Edit Area" Width="100" Margin="5" Background="LightYellow" Click="EditStorageArea_Click"/>
                         <Button x:Name="BanStorageAreaButton" Content="Ban Area" Width="100" Margin="5" Background="LightCoral" Click="BanStorageArea_Click"/>
                         <Button x:Name="UnBanStorageAreaButton" Content="UnBan Area" Width="100" Margin="5" Background="LightSkyBlue" Click="UnBanStorageArea_Click"/>
+                        <Button Content="Log Out" Width="100"  Click="LogoutButton_Click" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10"/>
+
 
                     </StackPanel>
                 </Grid>
@@ -262,11 +272,11 @@
                     <DataGrid x:Name="ProductDataGrid" Grid.Row="2" Grid.Column="0" ItemsSource="{Binding Products}"
                               AutoGenerateColumns="False" Margin="0,10">
                         <DataGrid.Columns>
-                            <DataGridTextColumn Header="Product ID" Binding="{Binding ProductId}" Width="*"/>
-                            <DataGridTextColumn Header="Product Code" Binding="{Binding ProductCode}" Width="*"/>
-                            <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"/>
-                            <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}" Width="*"/>
-                            <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*"/>
+                            <DataGridTextColumn Header="Product ID" Binding="{Binding ProductId}" Width="*" IsReadOnly="True"/>
+                            <DataGridTextColumn Header="Product Code" Binding="{Binding ProductCode}" Width="*" IsReadOnly="True"/>
+                            <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*" IsReadOnly="True"/>
+                            <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}" Width="*" IsReadOnly="True"/>
+                            <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*" IsReadOnly="True"/>
                         </DataGrid.Columns>
                     </DataGrid>
 
@@ -274,10 +284,127 @@
                         <Button x:Name="AddProductButton" Content="Add Product" Width="100" Margin="5" Background="LightGreen" Click="AddProduct_Click"/>
                         <Button x:Name="EditProductButton" Content="Edit Product" Width="100" Margin="5" Background="LightYellow" Click="EditProduct_Click"/>
                         <Button x:Name="DetailsProductButton" Content="Details Product" Width="100" Margin="5" Background="LightCoral" Click="DetailsProduct_Click"/>
-                        <Button x:Name="DeleteProductButton" Content="Delete Product" Width="100" Margin="5" Background="LightCoral" Click="DeleteProduct_Click"/>
+                        <Button x:Name="BanProductButton" Content="Ban Product" Width="100" Click="BanProductButton_Click" Margin="5"/>
+                        <Button x:Name="UnBanProductButton" Content="UnBan Product" Width="100" Click="UnBanProductButton_Click" Margin="5"/>
+                        <Button Content="Log Out" Width="100"  Click="LogoutButton_Click" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10"/>
+
                     </StackPanel>
                 </Grid>
             </TabItem>
+
+            <TabItem Header="Partner">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="PARTNER MANAGEMENT" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+
+                    <Grid Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBox Grid.Column="0" x:Name="partnerSearchTextBox" Margin="0,0,10,0"
+                                 VerticalAlignment="Center"
+                                 Width="200"
+                                 Text="Search by Partner Name"
+                                 Foreground="Gray"
+                                 GotFocus="RemovePartnerPlaceholderText"
+                                 LostFocus="AddPartnerPlaceholderText"/>
+                        <Button Grid.Column="1" Content="Search" Width="100" Margin="0,0,10,0"
+                                VerticalAlignment="Center" Background="LightBlue" Click="SearchPartner_Click"/>
+                        <Button Grid.Column="2" Content="Show All" Width="100"
+                                VerticalAlignment="Center" Background="LightGray" Click="ShowAllPartners_Click"/>
+                    </Grid>
+
+                    <DataGrid x:Name="PartnerDataGrid" Grid.Row="2" Grid.Column="0" ItemsSource="{Binding Partners}"
+                              AutoGenerateColumns="False" Margin="0,10">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Partner ID" Binding="{Binding PartnerId}" Width="*"/>
+                            <DataGridTextColumn Header="Partner Code" Binding="{Binding PartnerCode}" Width="*"/>
+                            <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"/>
+                            <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                    <StackPanel Grid.Row="3" Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                        <Button x:Name="AddPartnerButton" Content="Add Partner" Width="100" Margin="5" Background="LightGreen" Click="AddPartner_Click"/>
+                        <Button x:Name="EditPartnerButton" Content="Edit Partner" Width="100" Margin="5" Background="LightYellow" Click="EditPartner_Click"/>
+                        <Button x:Name="BanPartnerButton" Content="Ban Partner" Width="100" Margin="5" Background="LightCoral" Click="BanPartner_Click"/>
+                        <Button x:Name="UnbanPartnerButton" Content="Unban Partner" Width="100" Margin="5" Background="LightGreen" Click="UnbanPartner_Click"/>
+                        <Button Content="Log Out" Width="100"  Click="LogoutButton_Click" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10"/>
+
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Accounts">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="ACCOUNT MANAGEMENT" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+
+                    <Grid Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBox Grid.Column="0" x:Name="accountSearchTextBox" Margin="0,0,10,0"
+                     VerticalAlignment="Center"
+                     Width="200"
+                     Text="Search by Email or Name"
+                     Foreground="Gray"
+                     GotFocus="RemoveAccountPlaceholderText"
+                     LostFocus="AddAccountPlaceholderText"/>
+                        <Button Grid.Column="1" Content="Search" Width="100" Margin="0,0,10,0"
+                    VerticalAlignment="Center" Background="LightBlue" Click="SearchAccount_Click"/>
+                        <Button Grid.Column="2" Content="Show All" Width="100"
+                    VerticalAlignment="Center" Background="LightGray" Click="ShowAllAccounts_Click"/>
+                    </Grid>
+
+                    <DataGrid x:Name="AccountDataGrid" Grid.Row="2" Grid.Column="0" ItemsSource="{Binding Accounts}"
+                  AutoGenerateColumns="False" Margin="0,10">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Account ID" Binding="{Binding AccountId}" Width="*"/>
+                            <DataGridTextColumn Header="Account Code" Binding="{Binding AccountCode}" Width="*"/>
+                            <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="*"/>
+                            <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"/>
+                            <DataGridTextColumn Header="Role" Binding="{Binding Role}" Width="*"/>
+                            <DataGridTextColumn Header="Phone" Binding="{Binding Phone}" Width="*"/>
+                            <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                    <StackPanel Grid.Row="3" Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                        <Button x:Name="AddAccountButton" Content="Add Account" Width="100" Margin="5" Background="LightGreen" Click="AddAccount_Click"/>
+                        <Button x:Name="EditAccountButton" Content="Edit Account" Width="100" Margin="5" Background="LightYellow" Click="EditAccount_Click"/>
+                        <Button Content="Ban Account" Click="BanAccount_Click" Width="100" Margin="5,0" />
+                        <Button Content="UnBan Account" Click="UnBanAccount_Click" Width="100" Margin="5,0" />
+                        <Button Content="Log Out" Width="100"  Click="LogoutButton_Click" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10"/>
+
+
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            
         </TabControl>
     </Grid>
 </Window>

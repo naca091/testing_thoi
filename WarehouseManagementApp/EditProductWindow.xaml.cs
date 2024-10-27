@@ -1,10 +1,8 @@
-﻿using BusinessLogic;
-using DataAccess.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System;
 using System.Windows;
 using System.Windows.Controls;
+using BusinessLogic;
+using DataAccess.Models;
 
 namespace WarehouseManagementApp
 {
@@ -31,58 +29,56 @@ namespace WarehouseManagementApp
         private void LoadCategories()
         {
             CategoryComboBox.ItemsSource = _categoryService.GetAllCategories();
-            CategoryComboBox.DisplayMemberPath = "Name"; // Thay đổi theo thuộc tính đúng của bạn
-            CategoryComboBox.SelectedValuePath = "CategoryId"; // Thay đổi theo thuộc tính đúng của bạn
         }
 
         private void LoadStorageAreas()
         {
             StorageAreaComboBox.ItemsSource = _storageAreaService.GetAllStorageAreas();
-            StorageAreaComboBox.DisplayMemberPath = "Name"; // Thay đổi theo thuộc tính đúng của bạn
-            StorageAreaComboBox.SelectedValuePath = "AreaId"; // Thay đổi theo thuộc tính đúng của bạn
         }
 
         private void LoadProductDetails()
         {
-            var product = _productService.GetProductById(_productId);
-            if (product != null)
-            {
-                ProductCodeTextBox.Text = product.ProductCode; // Khóa chính không thay đổi
-                NameTextBox.Text = product.Name;
-                QuantityTextBox.Text = product.Quantity.ToString();
-                StatusComboBox.SelectedValue = product.Status;
-
-                // Đặt giá trị cho Category và Storage Area
-                CategoryComboBox.SelectedValue = product.CategoryId;
-                StorageAreaComboBox.SelectedValue = product.AreaId;
-            }
-            else
+            var product = _productService.GetProductByID(_productId);
+            if (product == null)
             {
                 MessageBox.Show("Product not found.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                Close();
+                return;
             }
+
+            ProductCodeTextBox.Text = product.ProductCode;
+            NameTextBox.Text = product.Name;
+            CategoryComboBox.SelectedValue = product.CategoryId;
+            StorageAreaComboBox.SelectedValue = product.AreaId;
+            QuantityTextBox.Text = product.Quantity.ToString();
+
+            if (product.Status == 0)
+                StatusComboBox.SelectedIndex = 0; // Inactive
+            else
+                StatusComboBox.SelectedIndex = 1; // Active
         }
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
-            // Kiểm tra đầu vào
+            // Input validation
             if (!ValidateInput()) return;
 
             var updatedProduct = new Product
             {
-                ProductId = _productId, // Sử dụng ID hiện tại để cập nhật
-                ProductCode = ProductCodeTextBox.Text,
-                Name = NameTextBox.Text,
-                Quantity = int.Parse(QuantityTextBox.Text),
-                Status = int.Parse(((ComboBoxItem)StatusComboBox.SelectedItem).Tag.ToString()),
+                ProductId = _productId,
                 CategoryId = ((Category)CategoryComboBox.SelectedItem).CategoryId,
-                AreaId = ((StorageArea)StorageAreaComboBox.SelectedItem).AreaId
+                AreaId = ((StorageArea)StorageAreaComboBox.SelectedItem).AreaId,
+                ProductCode = ProductCodeTextBox.Text.Trim(),
+                Name = NameTextBox.Text.Trim(),
+                Quantity = int.Parse(QuantityTextBox.Text.Trim()),
+                Status = int.Parse(((ComboBoxItem)StatusComboBox.SelectedItem).Tag.ToString())
             };
 
             try
             {
                 _productService.UpdateProduct(updatedProduct);
                 MessageBox.Show("Product updated successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
-                DialogResult = true; // Đóng cửa sổ với kết quả true
+                DialogResult = true;
             }
             catch (Exception ex)
             {
@@ -102,6 +98,12 @@ namespace WarehouseManagementApp
                 MessageBox.Show("Please select a storage area.", "Input Error", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return false;
             }
+            if (string.IsNullOrWhiteSpace(ProductCodeTextBox.Text) ||
+                !System.Text.RegularExpressions.Regex.IsMatch(ProductCodeTextBox.Text, @"^PROD\d{3,}$"))
+            {
+                MessageBox.Show("Product Code must follow the format 'PROD' followed by at least 3 digits.", "Input Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return false;
+            }
             if (string.IsNullOrWhiteSpace(NameTextBox.Text))
             {
                 MessageBox.Show("Please enter a product name.", "Input Error", MessageBoxButton.OK, MessageBoxImage.Warning);
@@ -117,7 +119,7 @@ namespace WarehouseManagementApp
 
         private void CancelButton_Click(object sender, RoutedEventArgs e)
         {
-            DialogResult = false; // Đóng cửa sổ mà không lưu
+            DialogResult = false;
         }
     }
 }

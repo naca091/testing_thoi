@@ -26,38 +26,40 @@ namespace DataAccess
         {
             return _context.Products.Find(productId);
         }
+
+        public void UpdateProduct(Product product)
+        {
+            var existingProduct = _context.Products.Find(product.ProductId);
+            if (existingProduct == null)
+            {
+                throw new Exception($"Product with ID {product.ProductId} not found.");
+            }
+
+            existingProduct.CategoryId = product.CategoryId;
+            existingProduct.AreaId = product.AreaId;
+            existingProduct.ProductCode = product.ProductCode;
+            existingProduct.Name = product.Name;
+            existingProduct.Quantity = product.Quantity;
+            existingProduct.Status = product.Status;
+
+            _context.SaveChanges();
+        }
+
         public void UpdateProductQuantity(int productId, int quantityToAdd)
         {
-            var product = _context.Products.FirstOrDefault(p => p.ProductId == productId);
+            var product = _context.Products.Find(productId);
             if (product == null)
             {
-                throw new InvalidOperationException($"Product with ID {productId} does not exist.");
+                throw new Exception($"Product with ID {productId} not found.");
+            }
+
+            if (product.Quantity + quantityToAdd < 0)
+            {
+                throw new Exception("Resulting quantity cannot be negative.");
             }
 
             product.Quantity += quantityToAdd;
             _context.SaveChanges();
-        }
-        public void UpdateProduct(Product product)
-        {
-            // Tìm sản phẩm theo ID
-            var existingProduct = _context.Products.Find(product.ProductId);
-            if (existingProduct != null)
-            {
-                // Cập nhật thông tin sản phẩm
-                existingProduct.CategoryId = product.CategoryId;
-                existingProduct.AreaId = product.AreaId;
-                existingProduct.ProductCode = product.ProductCode;
-                existingProduct.Name = product.Name;
-                existingProduct.Quantity = product.Quantity;
-                existingProduct.Status = product.Status;
-
-                // Lưu thay đổi vào cơ sở dữ liệu
-                _context.SaveChanges();
-            }
-            else
-            {
-                throw new Exception("Product not found");
-            }
         }
 
 

@@ -1,32 +1,35 @@
 ﻿<Window x:Class="WarehouseManagementApp.EditProductWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Edit Product" Height="400" Width="350">
-    <Grid>
-        <StackPanel Margin="10">
-            <Label Content="Product Code:" />
-            <TextBox x:Name="ProductCodeTextBox" IsReadOnly="True" />
+        Title="Edit Product" Height="500" Width="500"
+        WindowStartupLocation="CenterOwner">
+    <Grid Margin="20">
+        <StackPanel>
+            <Label Content="Product Code:" Margin="0,5"/>
+            <TextBox x:Name="ProductCodeTextBox" IsReadOnly="True"/>
 
-            <Label Content="Name:" />
-            <TextBox x:Name="NameTextBox" />
+            <Label Content="Name:" Margin="0,5"/>
+            <TextBox x:Name="NameTextBox"/>
 
-            <Label Content="Quantity:" />
-            <TextBox x:Name="QuantityTextBox" />
+            <Label Content="Category:" Margin="0,5"/>
+            <ComboBox x:Name="CategoryComboBox" DisplayMemberPath="Name" SelectedValuePath="CategoryId"/>
 
-            <Label Content="Status:" />
+            <Label Content="Storage Area:" Margin="0,5"/>
+            <ComboBox x:Name="StorageAreaComboBox" DisplayMemberPath="AreaName" SelectedValuePath="AreaId"/>
+
+            <Label Content="Quantity:" Margin="0,5"/>
+            <TextBox x:Name="QuantityTextBox"/>
+
+            <Label Content="Status:" Margin="0,5"/>
             <ComboBox x:Name="StatusComboBox">
-                <ComboBoxItem Content="Active" Tag="1"/>
                 <ComboBoxItem Content="Inactive" Tag="0"/>
+                <ComboBoxItem Content="Active" Tag="1"/>
             </ComboBox>
 
-            <Label Content="Category:" />
-            <ComboBox x:Name="CategoryComboBox" />
-
-            <Label Content="Storage Area:" />
-            <ComboBox x:Name="StorageAreaComboBox" />
-
-            <Button Content="Save" Click="SaveButton_Click" Margin="0,10,0,0"/>
-            <Button Content="Cancel" Click="CancelButton_Click" Margin="0,10,0,0"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20">
+                <Button x:Name="SaveButton" Content="Save" Width="80" Click="SaveButton_Click" Margin="0,0,10,0"/>
+                <Button x:Name="CancelButton" Content="Cancel" Width="80" Click="CancelButton_Click"/>
+            </StackPanel>
         </StackPanel>
     </Grid>
 </Window>

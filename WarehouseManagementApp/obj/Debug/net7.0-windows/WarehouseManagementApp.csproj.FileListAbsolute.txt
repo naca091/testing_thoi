@@ -103,3 +103,9 @@ C:\Users\ASUS\source\repos\PRN221_WPF\WarehouseManagementApp\obj\Debug\net7.0-wi
 C:\Users\ASUS\source\repos\PRN221_WPF\WarehouseManagementApp\obj\Debug\net7.0-windows\ProductDetailsWindow.g.cs
 C:\Users\ASUS\source\repos\PRN221_WPF\WarehouseManagementApp\obj\Debug\net7.0-windows\EditProductWindow.baml
 C:\Users\ASUS\source\repos\PRN221_WPF\WarehouseManagementApp\obj\Debug\net7.0-windows\EditProductWindow.g.cs
+C:\Users\ASUS\source\repos\PRN221_WPF\WarehouseManagementApp\obj\Debug\net7.0-windows\AddPartnerWindow.baml
+C:\Users\ASUS\source\repos\PRN221_WPF\WarehouseManagementApp\obj\Debug\net7.0-windows\AddPartnerWindow.g.cs
+C:\Users\ASUS\source\repos\PRN221_WPF\WarehouseManagementApp\obj\Debug\net7.0-windows\EditPartnerWindow.baml
+C:\Users\ASUS\source\repos\PRN221_WPF\WarehouseManagementApp\obj\Debug\net7.0-windows\EditPartnerWindow.g.cs
+C:\Users\ASUS\source\repos\PRN221_WPF\WarehouseManagementApp\obj\Debug\net7.0-windows\AddAccountWindow.baml
+C:\Users\ASUS\source\repos\PRN221_WPF\WarehouseManagementApp\obj\Debug\net7.0-windows\AddAccountWindow.g.cs

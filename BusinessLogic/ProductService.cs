@@ -30,8 +30,18 @@ namespace BusinessLogic
         {
             return _productDAO.GetProductByID(productId);
         }
+        public void UpdateProduct(Product product)
+        {
+            ValidateProduct(product);
+            _productDAO.UpdateProduct(product);
+        }
+
         public void UpdateProductQuantity(int productId, int quantityToAdd)
         {
+            if (quantityToAdd == 0)
+            {
+                throw new Exception("Quantity change cannot be zero.");
+            }
             _productDAO.UpdateProductQuantity(productId, quantityToAdd);
         }
         public bool AddProduct(Product newProduct)
@@ -50,11 +60,46 @@ namespace BusinessLogic
         {
             return _productDAO.GetProductById(productId);
         }
-        public void UpdateProduct(Product product)
+
+        private void ValidateProduct(Product product)
         {
-            // Thực hiện các kiểm tra bổ sung ở đây nếu cần
-            _productDAO.UpdateProduct(product);
+            // Validate ProductCode format
+            if (string.IsNullOrWhiteSpace(product.ProductCode) ||
+                !System.Text.RegularExpressions.Regex.IsMatch(product.ProductCode, @"^PROD\d{3,}$"))
+            {
+                throw new Exception("ProductCode must start with 'PROD' followed by at least 3 digits.");
+            }
+
+            // Validate Name
+            if (string.IsNullOrWhiteSpace(product.Name))
+            {
+                throw new Exception("Product name is required.");
+            }
+
+            // Validate Category and Area
+            if (product.CategoryId <= 0)
+            {
+                throw new Exception("Valid category must be selected.");
+            }
+
+            if (product.AreaId <= 0)
+            {
+                throw new Exception("Valid storage area must be selected.");
+            }
+
+            // Validate Quantity
+            if (product.Quantity < 0)
+            {
+                throw new Exception("Quantity cannot be negative.");
+            }
+
+            // Validate Status
+            if (product.Status != 0 && product.Status != 1)
+            {
+                throw new Exception("Status must be either 0 (Inactive) or 1 (Active).");
+            }
         }
+
     }
 }
 

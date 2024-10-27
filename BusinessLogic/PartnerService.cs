@@ -15,8 +15,7 @@ namespace BusinessLogic
 
         public List<Partner> GetAllPartners()
         {
-            var partners = _partnerDAO.GetAllPartners();
-            return partners ?? new List<Partner>();
+            return _partnerDAO.GetAllPartners();
         }
 
         public Partner GetPartnerByID(int partnerId)
@@ -24,5 +23,23 @@ namespace BusinessLogic
             return _partnerDAO.GetPartnerByID(partnerId);
         }
 
+        public void AddPartner(Partner partner)
+        {
+            _partnerDAO.AddPartner(partner);
+        }
+
+        public void UpdatePartner(Partner partner)
+        {
+            _partnerDAO.UpdatePartner(partner);
+        }
+        public void BanPartner(int partnerId)
+        {
+            _partnerDAO.BanPartner(partnerId);
+        }
+
+        public void UnbanPartner(int partnerId)
+        {
+            _partnerDAO.UnbanPartner(partnerId);
+        }
     }
 }

@@ -7,10 +7,16 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="AddAccountWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="AddCategoryWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="AddLotWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddPartnerWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="AddProductWindow.xaml.cs">
@@ -26,6 +32,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="EditLotWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EditPartnerWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="EditProductWindow.xaml.cs">
@@ -51,10 +60,16 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="AddAccountWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="AddCategoryWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="AddLotWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AddPartnerWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="AddProductWindow.xaml">
@@ -67,6 +82,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="EditLotWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EditPartnerWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="EditProductWindow.xaml">

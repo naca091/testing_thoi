@@ -1,31 +1,27 @@
-﻿using BusinessLogic;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+﻿using System.Windows;
+using BusinessLogic;
+using DataAccess.Models;
 
 namespace WarehouseManagementApp
 {
-    /// <summary>
-    /// Interaction logic for LoginWindow.xaml
-    /// </summary>
     public partial class LoginWindow : Window
     {
-        private readonly UserService _userService;
+        private readonly AccountService _accountService;
 
+        // Parameterless constructor
         public LoginWindow()
         {
             InitializeComponent();
-            _userService = new UserService();
+            var context = new PRN221_Warehouse(); // Initialize your DbContext here
+            _accountService = new AccountService(context); // Pass the context to AccountService
+        }
+
+
+        // Constructor with AccountService parameter
+        public LoginWindow(AccountService accountService)
+        {
+            InitializeComponent();
+            _accountService = accountService;
         }
 
         private void LoginButton_Click(object sender, RoutedEventArgs e)
@@ -33,15 +29,33 @@ namespace WarehouseManagementApp
             string email = EmailTextBox.Text;
             string password = PasswordBox.Password;
 
-            if (_userService.Authenticate(email, password))
+            // Validate input fields
+            if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
             {
-                MainWindow mainWindow = new MainWindow();
-                mainWindow.Show();
-                this.Close();
+                MessageBox.Show("Please enter both Email and Password.", "Input Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            // Retrieve account with provided email and password
+            var account = _accountService.GetAccountByEmailAndPassword(email, password);
+
+            if (account != null)
+            {
+                if (account.Status == 1)
+                {
+                    MessageBox.Show("Login Success!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+                    var mainWindow = new MainWindow();
+                    mainWindow.Show();
+                    Close();
+                }
+                else
+                {
+                    MessageBox.Show("Your Account is Banned from System.", "Access Denied", MessageBoxButton.OK, MessageBoxImage.Warning);
+                }
             }
             else
             {
-                MessageBox.Show("Invalid email or password.");
+                MessageBox.Show("Invalid Email or Password.", "Login Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
     }

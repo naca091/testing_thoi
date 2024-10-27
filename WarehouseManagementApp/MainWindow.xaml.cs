@@ -22,6 +22,7 @@ namespace WarehouseManagementApp
         private readonly PartnerService _partnerService;
         private readonly CategoryService _categoryService;
         private readonly StorageAreaService _storageAreaService;
+        private readonly AccountService _accountService;
 
 
 
@@ -39,13 +40,30 @@ namespace WarehouseManagementApp
             var stockOutDAO = new StockOutDAO(context);
             _stockOutService = new StockOutService(stockOutDAO);
             _storageAreaService = new StorageAreaService(new StorageAreaDAO(context));
-
+            _accountService = new AccountService(context);
+            LoadAccounts();
+            LoadPartner();
             LoadStorageAreas();
             LoadProducts();
 
             LoadLots();
             LoadStockOuts();
             LoadCategories(); // Load categories on startup
+        }
+
+        private void LoadAccounts()
+        {
+            AccountDataGrid.ItemsSource = _accountService.GetAllAccounts();
+        }
+
+
+        private void LoadPartner()
+        {
+            // Fetch all partners from the service
+            List<Partner> partners = _partnerService.GetAllPartners();
+
+            // Bind the fetched partners to the DataGrid
+            PartnerDataGrid.ItemsSource = partners;
         }
         private void LoadCategories()
         {
@@ -565,20 +583,30 @@ namespace WarehouseManagementApp
 
         private void EditProduct_Click(object sender, RoutedEventArgs e)
         {
+            // Check if a product is selected in the data grid
             if (ProductDataGrid.SelectedItem is Product selectedProduct)
             {
-                var editProductWindow = new EditProductWindow(_productService, _categoryService, _storageAreaService, selectedProduct.ProductId);
+                // Initialize the EditProductWindow and pass the selected product's ID
+                var editProductWindow = new EditProductWindow(_productService, _categoryService, _storageAreaService, selectedProduct.ProductId)
+                {
+                    Owner = this // Sets the current window as the owner of the dialog
+                };
+
+                // Show dialog and check if the result was 'true' (indicating a save)
                 if (editProductWindow.ShowDialog() == true)
                 {
-                    // Làm mới bảng dữ liệu hoặc lấy lại danh sách sản phẩm nếu cần thiết
+                    // Refresh product list or data grid to reflect changes
                     LoadProducts();
                 }
             }
             else
             {
+                // Show message if no product is selected
                 MessageBox.Show("Please select a product to edit.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
         }
+
+
 
 
         private void DeleteProduct_Click(object sender, RoutedEventArgs e)
@@ -620,6 +648,286 @@ namespace WarehouseManagementApp
                 // Hiển thị thông báo nếu không có sản phẩm nào được chọn
                 MessageBox.Show("Please select a product to view details.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
+        }
+
+        private void BanProductButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (ProductDataGrid.SelectedItem is Product selectedProduct)
+            {
+                // Show confirmation dialog
+                var result = MessageBox.Show("Are you sure you want to Ban this product?", "Confirm Ban", MessageBoxButton.YesNo, MessageBoxImage.Question);
+
+                if (result == MessageBoxResult.Yes)
+                {
+                    try
+                    {
+                        // Update product status to 0 (Ban)
+                        selectedProduct.Status = 0;
+                        _productService.UpdateProduct(selectedProduct);
+
+                        MessageBox.Show("Product has been banned.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+
+                        // Refresh product list or data grid to reflect changes
+                        LoadProducts();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error banning product: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please select a product to ban.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+        }
+
+        private void UnBanProductButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (ProductDataGrid.SelectedItem is Product selectedProduct)
+            {
+                // Show confirmation dialog
+                var result = MessageBox.Show("Are you sure you want to UnBan this product?", "Confirm UnBan", MessageBoxButton.YesNo, MessageBoxImage.Question);
+
+                if (result == MessageBoxResult.Yes)
+                {
+                    try
+                    {
+                        // Update product status to 1 (UnBan)
+                        selectedProduct.Status = 1;
+                        _productService.UpdateProduct(selectedProduct);
+
+                        MessageBox.Show("Product has been unbanned.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+
+                        // Refresh product list or data grid to reflect changes
+                        LoadProducts();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error unbanning product: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please select a product to unban.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+        }
+
+        private void SearchPartner_Click(object sender, RoutedEventArgs e)
+        {
+            string searchTerm = partnerSearchTextBox.Text;
+            if (!string.IsNullOrWhiteSpace(searchTerm) && searchTerm != "Search by Partner Name")
+            {
+                PartnerDataGrid.ItemsSource = _partnerService.GetAllPartners()
+                    .Where(p => p.Name.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))
+                    .ToList();
+            }
+        }
+
+        // Show all Partners
+        private void ShowAllPartners_Click(object sender, RoutedEventArgs e)
+        {
+            LoadPartner();
+            partnerSearchTextBox.Text = "Search by Partner Name";
+            partnerSearchTextBox.Foreground = Brushes.Gray;
+        }
+
+        // Placeholder text functionality for search box
+        private void RemovePartnerPlaceholderText(object sender, RoutedEventArgs e)
+        {
+            if (partnerSearchTextBox.Text == "Search by Partner Name")
+            {
+                partnerSearchTextBox.Text = "";
+                partnerSearchTextBox.Foreground = Brushes.Black;
+            }
+        }
+
+        private void AddPartnerPlaceholderText(object sender, RoutedEventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(partnerSearchTextBox.Text))
+            {
+                partnerSearchTextBox.Text = "Search by Partner Name";
+                partnerSearchTextBox.Foreground = Brushes.Gray;
+            }
+        }
+
+
+        private void AddPartner_Click(object sender, RoutedEventArgs e)
+        {
+            var addPartnerWindow = new AddPartnerWindow(_partnerService);
+            if (addPartnerWindow.ShowDialog() == true)
+            {
+                LoadPartner(); // Refresh data
+            }
+        }
+
+        private void EditPartner_Click(object sender, RoutedEventArgs e)
+        {
+            if (PartnerDataGrid.SelectedItem is Partner selectedPartner)
+            {
+                var editPartnerWindow = new EditPartnerWindow(_partnerService, selectedPartner);
+                if (editPartnerWindow.ShowDialog() == true)
+                {
+                    LoadPartner(); // Refresh data
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please select a partner to edit.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+        }
+
+        private void BanPartner_Click(object sender, RoutedEventArgs e)
+        {
+            if (PartnerDataGrid.SelectedItem is Partner selectedPartner)
+            {
+                var result = MessageBox.Show("Are you sure you want to ban this partner?", "Confirm Ban", MessageBoxButton.YesNo, MessageBoxImage.Warning);
+                if (result == MessageBoxResult.Yes)
+                {
+                    _partnerService.BanPartner(selectedPartner.PartnerId);
+                    MessageBox.Show("Partner has been banned successfully.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+                    LoadPartner(); // Refresh partner data
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please select a partner to ban.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+        }
+
+        private void UnbanPartner_Click(object sender, RoutedEventArgs e)
+        {
+            if (PartnerDataGrid.SelectedItem is Partner selectedPartner)
+            {
+                var result = MessageBox.Show("Are you sure you want to unban this partner?", "Confirm Unban", MessageBoxButton.YesNo, MessageBoxImage.Question);
+                if (result == MessageBoxResult.Yes)
+                {
+                    _partnerService.UnbanPartner(selectedPartner.PartnerId);
+                    MessageBox.Show("Partner has been unbanned successfully.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+                    LoadPartner(); // Refresh partner data
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please select a partner to unban.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+        }
+        private void SearchAccount_Click(object sender, RoutedEventArgs e)
+        {
+            string query = accountSearchTextBox.Text.Trim();
+            if (!string.IsNullOrEmpty(query))
+            {
+                AccountDataGrid.ItemsSource = _accountService.SearchAccounts(query);
+            }
+        }
+
+        private void ShowAllAccounts_Click(object sender, RoutedEventArgs e)
+        {
+            LoadAccounts(); // Reload all accounts
+        }
+
+        private void RemoveAccountPlaceholderText(object sender, RoutedEventArgs e)
+        {
+            // Cast sender to TextBox to access its properties
+            if (sender is TextBox textBox)
+            {
+                // Check if the placeholder text is displayed
+                if (textBox.Text == "Search by Email or Name")
+                {
+                    // Clear the placeholder text and set the text color to black
+                    textBox.Text = string.Empty;
+                    textBox.Foreground = Brushes.Black;
+                }
+            }
+        }
+
+        private void AddAccountPlaceholderText(object sender, RoutedEventArgs e)
+        {
+            // Cast sender to TextBox to access its properties
+            if (sender is TextBox textBox)
+            {
+                // Check if the text box is empty
+                if (string.IsNullOrWhiteSpace(textBox.Text))
+                {
+                    // Set the placeholder text and set the text color to gray
+                    textBox.Text = "Search by Email or Name";
+                    textBox.Foreground = Brushes.Gray;
+                }
+            }
+        }
+
+        private void EditAccount_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void AddAccount_Click(object sender, RoutedEventArgs e)
+        {
+            var addAccountWindow = new AddAccountWindow(_accountService);
+            if (addAccountWindow.ShowDialog() == true)
+            {
+                LoadAccounts(); // Refresh accounts after adding
+            }
+        }
+        private void BanAccount_Click(object sender, RoutedEventArgs e)
+        {
+            if (AccountDataGrid.SelectedItem is Account selectedAccount)
+            {
+                var result = MessageBox.Show("Are you sure you want to ban this account?", "Confirm Ban", MessageBoxButton.YesNo, MessageBoxImage.Question);
+                if (result == MessageBoxResult.Yes)
+                {
+                    selectedAccount.Status = 0; // Set status to 0 for banned
+                    _accountService.UpdateAccount(selectedAccount);
+                    MessageBox.Show("Account banned successfully.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+                    LoadAccounts();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please select an account to ban.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+        }
+
+        private void UnBanAccount_Click(object sender, RoutedEventArgs e)
+        {
+            if (AccountDataGrid.SelectedItem is Account selectedAccount)
+            {
+                var result = MessageBox.Show("Are you sure you want to unban this account?", "Confirm UnBan", MessageBoxButton.YesNo, MessageBoxImage.Question);
+                if (result == MessageBoxResult.Yes)
+                {
+                    selectedAccount.Status = 1; // Set status to 1 for active
+                    _accountService.UpdateAccount(selectedAccount);
+                    MessageBox.Show("Account unbanned successfully.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+                    LoadAccounts();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please select an account to unban.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+        }
+
+        private void LogoutButton_Click(object sender, RoutedEventArgs e)
+        {
+            // Show a confirmation dialog
+            MessageBoxResult result = MessageBox.Show(
+                "Are you sure you want to log out?",
+                "Logout Confirmation",
+                MessageBoxButton.YesNo,
+                MessageBoxImage.Question);
+
+            // Check if the user clicked "Yes"
+            if (result == MessageBoxResult.Yes)
+            {
+                // Show the LoginWindow
+                var loginWindow = new LoginWindow();
+                loginWindow.Show();
+
+                // Close the current MainWindow
+                this.Close();
+            }
+            // If "No" is selected, simply close the popup and stay in MainWindow
         }
 
 
