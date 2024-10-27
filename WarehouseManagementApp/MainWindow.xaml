@@ -1,0 +1,283 @@
+﻿<Window x:Class="WarehouseManagementApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Warehouse Management" Height="619" Width="800"
+        WindowStartupLocation="CenterScreen"
+        Loaded="Window_Loaded">
+    <Grid>
+        <TabControl SelectionChanged="TabControl_SelectionChanged">
+            <TabItem Header="Lots">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Title -->
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="LOT MANAGEMENT" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+
+                    <!-- Search Bar -->
+                    <Grid Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBox Grid.Column="0" x:Name="searchTextBox" Margin="0,0,10,0"
+                                 VerticalAlignment="Center"
+                                 Width="200"
+                                 Text="Search by Lot Code"
+                                 Foreground="Gray"
+                                 GotFocus="RemovePlaceholderText"
+                                 LostFocus="AddPlaceholderText"/>
+                        <Button Grid.Column="1" Content="Search" Width="100" Margin="0,0,10,0"
+                                VerticalAlignment="Center" Background="LightBlue" Click="Search_Click"/>
+                        <Button Grid.Column="2" Content="Show All" Width="100"
+                                VerticalAlignment="Center" Background="LightGray" Click="ShowAll_Click"/>
+                    </Grid>
+
+                    <!-- Lot DataGrid -->
+                    <DataGrid x:Name="LotDataGrid" Grid.Row="2" Grid.Column="0" ItemsSource="{Binding Lots}"
+                              AutoGenerateColumns="False" Margin="0,10">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Lot ID" Binding="{Binding LotId}" Width="*" IsReadOnly="True"/>
+                            <DataGridTextColumn Header="Lot Code" Binding="{Binding LotCode}" Width="*" IsReadOnly="True"/>
+                            <DataGridTextColumn Header="Date In" Binding="{Binding DateIn}" Width="*" IsReadOnly="True"/>
+                            <DataGridTextColumn Header="Note" Binding="{Binding Note}" Width="*" IsReadOnly="True"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                    <!-- Buttons -->
+                    <StackPanel Grid.Row="3" Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                        <Button x:Name="AddLotButton" Content="Add Lot" Width="100" Margin="5" Background="LightGreen" Click="AddLot_Click"/>
+                        <Button x:Name="EditLotButton" Content="Edit Lot" Width="100" Margin="5" Background="LightYellow" Click="EditLot_Click"/>
+                        <Button x:Name="ViewDetailsButton" Content="View Details" Width="100" Margin="5" Background="LightBlue" Click="ViewDetails_Click"/>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Stock Out">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Title -->
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="STOCK OUT MANAGEMENT" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+
+                    <!-- Search Bar -->
+                    <Grid Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBox Grid.Column="0" x:Name="stockOutSearchTextBox" Margin="0,0,10,0"
+                     VerticalAlignment="Center"
+                     Width="200"
+                     Text="Search by Stock Out ID"
+                     Foreground="Gray"
+                     GotFocus="RemoveStockOutPlaceholderText"
+                     LostFocus="AddStockOutPlaceholderText"/>
+                        <Button Grid.Column="1" Content="Search" Width="100" Margin="0,0,10,0"
+                    VerticalAlignment="Bottom" Background="LightBlue" Click="SearchStockOut_Click"/>
+                        <Button Grid.Column="2" Content="Show All" Width="100"
+                    VerticalAlignment="Center" Background="LightGray" Click="ShowAllStockOut_Click"/>
+                    </Grid>
+
+                    <!-- Stock Out DataGrid -->
+                    <DataGrid x:Name="StockOutDataGrid" Grid.Row="2" Grid.Column="0" 
+          ItemsSource="{Binding StockOuts}"
+          AutoGenerateColumns="False" Margin="0,10">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Stock Out ID" Binding="{Binding StockOutId}" Width="*"/>
+                            <DataGridTextColumn Header="Partner" Binding="{Binding Partner.Name}" Width="*"/>
+                            <DataGridTextColumn Header="Date Out" Binding="{Binding DateOut, StringFormat={}{0:dd/MM/yyyy}}" Width="*"/>
+                            <DataGridTextColumn Header="Note" Binding="{Binding Note}" Width="*"/>
+                            <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                    <!-- Buttons -->
+                    <StackPanel Grid.Row="3" Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                        <Button x:Name="AddStockOutButton" Content="Add Stock Out" Width="100" Margin="5" Background="LightGreen" Click="AddStockOut_Click"/>
+                        <Button x:Name="EditStockOutButton" Content="Edit Stock Out" Width="100" Margin="5" Background="LightYellow" Click="EditStockOut_Click"/>
+                        <Button x:Name="ViewStockOutDetailsButton" Content="View Details" Width="100" Margin="5" Background="LightBlue" Click="ViewStockOutDetails_Click"/>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Category">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="CATEGORY MANAGEMENT" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+
+                    <Grid Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBox Grid.Column="0" x:Name="categorySearchTextBox" Margin="0,0,0,1"
+                                 VerticalAlignment="Bottom"
+                                 Width="200"
+                                 Text="Search by Category Name"
+                                 Foreground="Gray"
+                                 
+                                  TextChanged="categorySearchTextBox_TextChanged"/>
+                        <Button Grid.Column="1" Content="Search" Width="100" Margin="0,0,10,0"
+                                VerticalAlignment="Center" Background="LightBlue" Click="SearchCategory_Click"/>
+                        <Button Grid.Column="2" Content="Show All" Width="100"
+                                VerticalAlignment="Center" Background="LightGray" Click="ShowAllCategories_Click"/>
+                    </Grid>
+
+                    <DataGrid x:Name="CategoryDataGrid" Grid.Row="2" Grid.Column="0" ItemsSource="{Binding Categories}"
+                              AutoGenerateColumns="False" Margin="0,10">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Category ID" Binding="{Binding CategoryId}" Width="*"/>
+                            <DataGridTextColumn Header="Category Code" Binding="{Binding CategoryCode}" Width="*"/>
+                            <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"/>
+                            <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                    <StackPanel Grid.Row="3" Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                        <Button x:Name="AddCategoryButton" Content="Add Category" Width="100" Margin="5" Background="LightGreen" Click="AddCategory_Click"/>
+                        <Button x:Name="EditCategoryButton" Content="Edit Category" Width="100" Margin="5" Background="LightYellow" Click="EditCategory_Click"/>
+                        <Button x:Name="DeleteCategoryButton" Content="Delete Category" Width="100" Margin="5" Background="LightCoral" Click="DeleteCategory_Click"/>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Storage Area">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="STORAGE AREA MANAGEMENT" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+
+                    <Grid Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBox Grid.Column="0" x:Name="storageAreaSearchTextBox" Margin="0,0,10,0"
+                                 VerticalAlignment="Center"
+                                 Width="200"
+                                 Text="Search by Area Name"
+                                 Foreground="Gray"
+                                 GotFocus="RemoveStorageAreaPlaceholderText"
+                                 LostFocus="AddStorageAreaPlaceholderText"/>
+                        <Button Grid.Column="1" Content="Search" Width="100" Margin="0,0,10,0"
+                                VerticalAlignment="Top" Background="LightBlue" Click="SearchStorageArea_Click"/>
+                        <Button Grid.Column="2" Content="Show All" Width="100"
+                                VerticalAlignment="Bottom" Background="LightGray" Click="ShowAllStorageAreas_Click"/>
+                    </Grid>
+
+                    <DataGrid x:Name="StorageAreaDataGrid" Grid.Row="2" Grid.Column="0" ItemsSource="{Binding StorageAreas}"
+                              AutoGenerateColumns="False" Margin="0,10">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Area ID" Binding="{Binding AreaId}" Width="*"/>
+                            <DataGridTextColumn Header="Area Code" Binding="{Binding AreaCode}" Width="*"/>
+                            <DataGridTextColumn Header="Area Name" Binding="{Binding AreaName}" Width="*"/>
+                            <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                    <StackPanel Grid.Row="3" Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                        <Button x:Name="AddStorageAreaButton" Content="Add Area" Width="100" Margin="5" Background="LightGreen" Click="AddStorageArea_Click"/>
+                        <Button x:Name="EditStorageAreaButton" Content="Edit Area" Width="100" Margin="5" Background="LightYellow" Click="EditStorageArea_Click"/>
+                        <Button x:Name="BanStorageAreaButton" Content="Ban Area" Width="100" Margin="5" Background="LightCoral" Click="BanStorageArea_Click"/>
+                        <Button x:Name="UnBanStorageAreaButton" Content="UnBan Area" Width="100" Margin="5" Background="LightSkyBlue" Click="UnBanStorageArea_Click"/>
+
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Product">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="PRODUCT MANAGEMENT" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+
+                    <Grid Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBox Grid.Column="0" x:Name="productSearchTextBox" Margin="0,0,10,0"
+                                 VerticalAlignment="Center"
+                                 Width="200"
+                                 Text="Search by Product Name"
+                                 Foreground="Gray"
+                                 GotFocus="RemoveProductPlaceholderText"
+                                 LostFocus="AddProductPlaceholderText"/>
+                        <Button Grid.Column="1" Content="Search" Width="100" Margin="0,0,10,0"
+                                VerticalAlignment="Center" Background="LightBlue" Click="SearchProduct_Click"/>
+                        <Button Grid.Column="2" Content="Show All" Width="100"
+                                VerticalAlignment="Center" Background="LightGray" Click="ShowAllProducts_Click"/>
+                    </Grid>
+
+                    <DataGrid x:Name="ProductDataGrid" Grid.Row="2" Grid.Column="0" ItemsSource="{Binding Products}"
+                              AutoGenerateColumns="False" Margin="0,10">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Product ID" Binding="{Binding ProductId}" Width="*"/>
+                            <DataGridTextColumn Header="Product Code" Binding="{Binding ProductCode}" Width="*"/>
+                            <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"/>
+                            <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}" Width="*"/>
+                            <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                    <StackPanel Grid.Row="3" Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                        <Button x:Name="AddProductButton" Content="Add Product" Width="100" Margin="5" Background="LightGreen" Click="AddProduct_Click"/>
+                        <Button x:Name="EditProductButton" Content="Edit Product" Width="100" Margin="5" Background="LightYellow" Click="EditProduct_Click"/>
+                        <Button x:Name="DetailsProductButton" Content="Details Product" Width="100" Margin="5" Background="LightCoral" Click="DetailsProduct_Click"/>
+                        <Button x:Name="DeleteProductButton" Content="Delete Product" Width="100" Margin="5" Background="LightCoral" Click="DeleteProduct_Click"/>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

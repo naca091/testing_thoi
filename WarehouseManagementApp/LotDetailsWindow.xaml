@@ -1,0 +1,29 @@
+﻿<Window x:Class="WarehouseManagementApp.LotDetailsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Lot Details" Height="450" Width="800"
+        WindowStartupLocation="CenterOwner">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0">
+            <TextBlock x:Name="LotCodeTextBlock" FontWeight="Bold"/>
+            <TextBlock x:Name="DateInTextBlock"/>
+            <TextBlock x:Name="PartnerTextBlock"/>
+            <TextBlock x:Name="NoteTextBlock"/>
+        </StackPanel>
+
+        <TextBlock Grid.Row="1" Text="Lot Details:" FontWeight="Bold" Margin="0,10,0,5"/>
+
+        <DataGrid Grid.Row="2" x:Name="LotDetailsDataGrid" AutoGenerateColumns="False" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Product" Binding="{Binding Product.Name}" Width="*"/>
+                <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}" Width="Auto"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
