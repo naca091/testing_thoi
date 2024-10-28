@@ -7,6 +7,7 @@ namespace WarehouseManagementApp
     public partial class LoginWindow : Window
     {
         private readonly AccountService _accountService;
+        public static Account? LoggedInAccount { get; private set; } // Add this static property
 
         // Parameterless constructor
         public LoginWindow()
@@ -29,20 +30,18 @@ namespace WarehouseManagementApp
             string email = EmailTextBox.Text;
             string password = PasswordBox.Password;
 
-            // Validate input fields
             if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
             {
                 MessageBox.Show("Please enter both Email and Password.", "Input Error", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 
-            // Retrieve account with provided email and password
             var account = _accountService.GetAccountByEmailAndPassword(email, password);
-
             if (account != null)
             {
                 if (account.Status == 1)
                 {
+                    LoggedInAccount = account; // Store the logged in account
                     MessageBox.Show("Login Success!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
                     var mainWindow = new MainWindow();
                     mainWindow.Show();

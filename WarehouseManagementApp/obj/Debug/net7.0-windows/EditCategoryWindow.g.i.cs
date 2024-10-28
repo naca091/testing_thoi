@@ -68,7 +68,7 @@ namespace WarehouseManagementApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WarehouseManagementApp;component/editcategorywindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WarehouseManagementApp;V1.0.0.0;component/editcategorywindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\EditCategoryWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

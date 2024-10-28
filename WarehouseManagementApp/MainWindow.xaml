@@ -1,9 +1,16 @@
 ﻿<Window x:Class="WarehouseManagementApp.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Warehouse Management" Height="619" Width="800"
+        xmlns:local="clr-namespace:WarehouseManagementApp"
+        Title="MainWindow" Height="450" Width="800"
         WindowStartupLocation="CenterScreen"
         Loaded="Window_Loaded">
+    <Window.Resources>
+        <!-- Declare the StatusConverter resource -->
+        <local:StatusConverter x:Key="StatusConverter"/>
+    </Window.Resources>
+    
+    
     <Grid>
         
         <TabControl SelectionChanged="TabControl_SelectionChanged">
@@ -89,13 +96,8 @@
                             <ColumnDefinition Width="Auto"/>
                         </Grid.ColumnDefinitions>
 
-                        <TextBox Grid.Column="0" x:Name="stockOutSearchTextBox" Margin="0,0,10,0"
-                     VerticalAlignment="Center"
-                     Width="200"
-                     Text="Search by Stock Out ID"
-                     Foreground="Gray"
-                     GotFocus="RemoveStockOutPlaceholderText"
-                     LostFocus="AddStockOutPlaceholderText"/>
+                        <TextBox Grid.Column="0" x:Name="StockOutSearchTextBox" Margin="0,0,10,0" VerticalAlignment="Center" Width="200"
+                     Text="Search by Stock Out Code" Foreground="Gray" GotFocus="RemoveStockOutPlaceholderText" LostFocus="AddStockOutPlaceholderText"/>
                         <Button Grid.Column="1" Content="Search" Width="100" Margin="0,0,10,0"
                     VerticalAlignment="Bottom" Background="LightBlue" Click="SearchStockOut_Click"/>
                         <Button Grid.Column="2" Content="Show All" Width="100"
@@ -107,11 +109,13 @@
           ItemsSource="{Binding StockOuts}"
           AutoGenerateColumns="False" Margin="0,10">
                         <DataGrid.Columns>
-                            <DataGridTextColumn Header="Stock Out ID" Binding="{Binding StockOutId}" Width="*"/>
-                            <DataGridTextColumn Header="Partner" Binding="{Binding Partner.Name}" Width="*"/>
-                            <DataGridTextColumn Header="Date Out" Binding="{Binding DateOut, StringFormat={}{0:dd/MM/yyyy}}" Width="*"/>
-                            <DataGridTextColumn Header="Note" Binding="{Binding Note}" Width="*"/>
-                            <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*"/>
+                            <DataGridTextColumn Header="Stock Out ID" Binding="{Binding StockOutId}" Width="*" IsReadOnly="True"/>
+                            <DataGridTextColumn Header="Partner" Binding="{Binding Partner.Name}" Width="*" IsReadOnly="True"/>
+                            <DataGridTextColumn Header="Date Out" Binding="{Binding DateOut, StringFormat={}{0:dd/MM/yyyy}}" Width="*" IsReadOnly="True"/>
+                            <DataGridTextColumn Header="Note" Binding="{Binding Note}" Width="*" IsReadOnly="True"/>
+                            <DataGridTextColumn Header="Status"
+                                Binding="{Binding Status, Converter={StaticResource StatusConverter}}"
+                                Width="*"/>
                         </DataGrid.Columns>
                     </DataGrid>
 
@@ -147,13 +151,8 @@
                             <ColumnDefinition Width="Auto"/>
                         </Grid.ColumnDefinitions>
 
-                        <TextBox Grid.Column="0" x:Name="categorySearchTextBox" Margin="0,0,0,1"
-                                 VerticalAlignment="Bottom"
-                                 Width="200"
-                                 Text="Search by Category Name"
-                                 Foreground="Gray"
-                                 
-                                  TextChanged="categorySearchTextBox_TextChanged"/>
+                        <TextBox Grid.Column="0" x:Name="CategorySearchTextBox" Margin="0,0,10,0" VerticalAlignment="Center" Width="200"
+                     Text="Search by Category Code" Foreground="Gray" GotFocus="RemoveCategoryPlaceholderText" LostFocus="AddCategoryPlaceholderText"/>
                         <Button Grid.Column="1" Content="Search" Width="100" Margin="0,0,10,0"
                                 VerticalAlignment="Center" Background="LightBlue" Click="SearchCategory_Click"/>
                         <Button Grid.Column="2" Content="Show All" Width="100"
@@ -161,12 +160,14 @@
                     </Grid>
 
                     <DataGrid x:Name="CategoryDataGrid" Grid.Row="2" Grid.Column="0" ItemsSource="{Binding Categories}"
-                              AutoGenerateColumns="False" Margin="0,10">
+          AutoGenerateColumns="False" Margin="0,10">
                         <DataGrid.Columns>
                             <DataGridTextColumn Header="Category ID" Binding="{Binding CategoryId}" Width="*"/>
                             <DataGridTextColumn Header="Category Code" Binding="{Binding CategoryCode}" Width="*"/>
                             <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"/>
-                            <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*"/>
+                            <DataGridTextColumn Header="Status" 
+                          Binding="{Binding Status, Converter={StaticResource StatusConverter}}" 
+                          Width="*"/>
                         </DataGrid.Columns>
                     </DataGrid>
 
@@ -220,7 +221,9 @@
                             <DataGridTextColumn Header="Area ID" Binding="{Binding AreaId}" Width="*"/>
                             <DataGridTextColumn Header="Area Code" Binding="{Binding AreaCode}" Width="*"/>
                             <DataGridTextColumn Header="Area Name" Binding="{Binding AreaName}" Width="*"/>
-                            <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*"/>
+                            <DataGridTextColumn Header="Status"
+                                Binding="{Binding Status, Converter={StaticResource StatusConverter}}"
+                                Width="*"/>
                         </DataGrid.Columns>
                     </DataGrid>
 
@@ -276,7 +279,9 @@
                             <DataGridTextColumn Header="Product Code" Binding="{Binding ProductCode}" Width="*" IsReadOnly="True"/>
                             <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*" IsReadOnly="True"/>
                             <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}" Width="*" IsReadOnly="True"/>
-                            <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*" IsReadOnly="True"/>
+                            <DataGridTextColumn Header="Status"
+                                Binding="{Binding Status, Converter={StaticResource StatusConverter}}"
+                                Width="*" IsReadOnly="True"/>
                         </DataGrid.Columns>
                     </DataGrid>
 
@@ -332,7 +337,9 @@
                             <DataGridTextColumn Header="Partner ID" Binding="{Binding PartnerId}" Width="*"/>
                             <DataGridTextColumn Header="Partner Code" Binding="{Binding PartnerCode}" Width="*"/>
                             <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"/>
-                            <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*"/>
+                            <DataGridTextColumn Header="Status"
+                                Binding="{Binding Status, Converter={StaticResource StatusConverter}}"
+                                Width="*"/>
                         </DataGrid.Columns>
                     </DataGrid>
 
@@ -346,7 +353,7 @@
                     </StackPanel>
                 </Grid>
             </TabItem>
-            <TabItem Header="Accounts">
+            <TabItem Header="Accounts" x:Name="AccountsTabItem">
                 <Grid Margin="10">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
@@ -389,7 +396,9 @@
                             <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"/>
                             <DataGridTextColumn Header="Role" Binding="{Binding Role}" Width="*"/>
                             <DataGridTextColumn Header="Phone" Binding="{Binding Phone}" Width="*"/>
-                            <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*"/>
+                                        <DataGridTextColumn Header="Status"
+                                Binding="{Binding Status, Converter={StaticResource StatusConverter}}"
+                                Width="*"/>
                         </DataGrid.Columns>
                     </DataGrid>
 
@@ -404,6 +413,7 @@
                     </StackPanel>
                 </Grid>
             </TabItem>
+            
             
         </TabControl>
     </Grid>

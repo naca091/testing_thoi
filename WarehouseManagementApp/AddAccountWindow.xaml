@@ -18,8 +18,8 @@
 
             <TextBlock Text="Role:" />
             <ComboBox x:Name="RoleComboBox">
-                <ComboBoxItem Content="1" Tag="1" />
-                <ComboBoxItem Content="2" Tag="2" />
+                <ComboBoxItem Content="Store Keeper" Tag="1" />
+                <ComboBoxItem Content="Manager" Tag="2" />
             </ComboBox>
 
             <TextBlock Text="Phone:" />

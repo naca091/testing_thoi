@@ -108,7 +108,7 @@ namespace WarehouseManagementApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WarehouseManagementApp;component/addlotwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WarehouseManagementApp;V1.0.0.0;component/addlotwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AddLotWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

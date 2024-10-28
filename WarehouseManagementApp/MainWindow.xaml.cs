@@ -1,6 +1,7 @@
 ﻿using BusinessLogic;
 using DataAccess;
 using DataAccess.Models;
+using System.Globalization;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -29,7 +30,10 @@ namespace WarehouseManagementApp
 
         public MainWindow()
         {
+
             InitializeComponent();
+            ConfigureTabItemVisibility();
+            ConfigureButtonVisibility();
             var context = new PRN221_Warehouse();
 
             _lotService = new LotService(context);
@@ -51,11 +55,81 @@ namespace WarehouseManagementApp
             LoadCategories(); // Load categories on startup
         }
 
-        private void LoadAccounts()
+        //config tab item Account for Admin
+        private void ConfigureTabItemVisibility()
         {
-            AccountDataGrid.ItemsSource = _accountService.GetAllAccounts();
+            var loggedInAccount = LoginWindow.LoggedInAccount;
+
+            // Kiểm tra xem TabItem có tồn tại không
+            if (AccountsTabItem != null)
+            {
+                // Chỉ hiển thị TabItem nếu role là 1
+                if (loggedInAccount?.Role != 0)
+                {
+                    // Tìm TabControl chứa TabItem
+                    if (AccountsTabItem.Parent is TabControl tabControl)
+                    {
+                        // Remove TabItem khỏi TabControl
+                        tabControl.Items.Remove(AccountsTabItem);
+                    }
+                }
+            }
+        }
+        //config for see or not see button
+        //config for see or not see button
+        private void ConfigureButtonVisibility()
+        {
+            // Get the logged-in account from LoginWindow
+            var loggedInAccount = LoginWindow.LoggedInAccount;
+
+            // Check if buttons exist (they might be in a TabItem)
+            if (loggedInAccount != null)
+            {
+                // Role 1 and Role 2 can see AddLot, AddProduct, AddStockOut
+                bool canSeeAddLotProductStockOut = loggedInAccount.Role == 1 || loggedInAccount.Role == 2;
+
+                // Only Role 2 can see other buttons
+                bool canSeeRole2OnlyButtons = loggedInAccount.Role == 2;
+
+                // Configure visibility for buttons accessible to Role 1 and Role 2
+                AddLotButton.Visibility = canSeeAddLotProductStockOut ? Visibility.Visible : Visibility.Collapsed;
+                AddProductButton.Visibility = canSeeAddLotProductStockOut ? Visibility.Visible : Visibility.Collapsed;
+                AddStockOutButton.Visibility = canSeeAddLotProductStockOut ? Visibility.Visible : Visibility.Collapsed;
+                ViewDetailsButton.Visibility = canSeeAddLotProductStockOut ? Visibility.Visible : Visibility.Collapsed;
+                ViewStockOutDetailsButton.Visibility = canSeeAddLotProductStockOut ? Visibility.Visible : Visibility.Collapsed;
+                DetailsProductButton.Visibility = canSeeAddLotProductStockOut ? Visibility.Visible : Visibility.Collapsed;
+
+
+                // Configure visibility for Role 2-only buttons
+                EditLotButton.Visibility = canSeeRole2OnlyButtons ? Visibility.Visible : Visibility.Collapsed;
+                EditStockOutButton.Visibility = canSeeRole2OnlyButtons ? Visibility.Visible : Visibility.Collapsed;
+                AddCategoryButton.Visibility = canSeeRole2OnlyButtons ? Visibility.Visible : Visibility.Collapsed;
+                EditCategoryButton.Visibility = canSeeRole2OnlyButtons ? Visibility.Visible : Visibility.Collapsed;
+                DeleteCategoryButton.Visibility = canSeeRole2OnlyButtons ? Visibility.Visible : Visibility.Collapsed;
+                AddStorageAreaButton.Visibility = canSeeRole2OnlyButtons ? Visibility.Visible : Visibility.Collapsed;
+                EditStorageAreaButton.Visibility = canSeeRole2OnlyButtons ? Visibility.Visible : Visibility.Collapsed;
+                BanStorageAreaButton.Visibility = canSeeRole2OnlyButtons ? Visibility.Visible : Visibility.Collapsed;
+                UnBanStorageAreaButton.Visibility = canSeeRole2OnlyButtons ? Visibility.Visible : Visibility.Collapsed;
+                EditProductButton.Visibility = canSeeRole2OnlyButtons ? Visibility.Visible : Visibility.Collapsed;
+                BanProductButton.Visibility = canSeeRole2OnlyButtons ? Visibility.Visible : Visibility.Collapsed;
+                UnBanProductButton.Visibility = canSeeRole2OnlyButtons ? Visibility.Visible : Visibility.Collapsed;
+                AddPartnerButton.Visibility = canSeeRole2OnlyButtons ? Visibility.Visible : Visibility.Collapsed;
+                EditPartnerButton.Visibility = canSeeRole2OnlyButtons ? Visibility.Visible : Visibility.Collapsed;
+                BanPartnerButton.Visibility = canSeeRole2OnlyButtons ? Visibility.Visible : Visibility.Collapsed;
+                UnbanPartnerButton.Visibility = canSeeRole2OnlyButtons ? Visibility.Visible : Visibility.Collapsed;
+
+
+
+                // Repeat similar lines for other Role 2-only buttons
+            }
         }
 
+
+        private void LoadAccounts()
+            {
+                AccountDataGrid.ItemsSource = _accountService.GetAllAccounts();
+            }
+        
 
         private void LoadPartner()
         {
@@ -269,19 +343,19 @@ namespace WarehouseManagementApp
 
         private void RemoveStockOutPlaceholderText(object sender, RoutedEventArgs e)
         {
-            if (stockOutSearchTextBox.Text == "Search by Stock Out ID")
+            if (StockOutSearchTextBox.Text == "Search by Stock Out ID")
             {
-                stockOutSearchTextBox.Text = "";
-                stockOutSearchTextBox.Foreground = Brushes.Black;
+                StockOutSearchTextBox.Text = "";
+                StockOutSearchTextBox.Foreground = Brushes.Black;
             }
         }
 
         private void AddStockOutPlaceholderText(object sender, RoutedEventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(stockOutSearchTextBox.Text))
+            if (string.IsNullOrWhiteSpace(StockOutSearchTextBox.Text))
             {
-                stockOutSearchTextBox.Text = "Search by Stock Out ID";
-                stockOutSearchTextBox.Foreground = Brushes.Gray;
+                StockOutSearchTextBox.Text = "Search by Stock Out ID";
+                StockOutSearchTextBox.Foreground = Brushes.Gray;
             }
         }
 
@@ -928,6 +1002,75 @@ namespace WarehouseManagementApp
                 this.Close();
             }
             // If "No" is selected, simply close the popup and stay in MainWindow
+        }
+
+        // Stock Out Search Event
+        private void StockOutSearch_Click(object sender, RoutedEventArgs e)
+        {
+            string searchText = StockOutSearchTextBox.Text.ToLower();
+            if (!string.IsNullOrEmpty(searchText) && searchText != "search by partner name")
+            {
+                // Fetch all StockOuts and their associated Partner names
+                var filteredStockOuts = _stockOutService.GetAllStockOuts()
+                    .Where(stockOut => stockOut.Partner.Name.ToLower().Contains(searchText))
+                    .ToList();
+
+                StockOutDataGrid.ItemsSource = filteredStockOuts;
+            }
+            else
+            {
+                // If the search text is empty or is the placeholder text, show all stock outs
+                ShowAllStockOut_Click(sender, e);
+            }
+        }
+
+
+
+
+        // Category Search Event
+        private void CategorySearch_Click(object sender, RoutedEventArgs e)
+        {
+            string searchText = CategorySearchTextBox.Text.ToLower();
+            if (!string.IsNullOrEmpty(searchText))
+            {
+                // Filter Categories based on the CategoryCode
+                var filteredCategories = _categoryService.GetAllCategories()
+                                        .Where(category => category.CategoryCode.ToLower().Contains(searchText))
+                                        .ToList();
+                CategoryDataGrid.ItemsSource = filteredCategories;
+            }
+        }
+
+        private void ShowAllCategory_Click(object sender, RoutedEventArgs e)
+        {
+            // Display all Categories
+            CategoryDataGrid.ItemsSource = _categoryService.GetAllCategories();
+        }
+        private void RemoveCategoryPlaceholderText(object sender, RoutedEventArgs e)
+        {
+            var textBox = sender as TextBox;
+            if (textBox != null && textBox.Text == "Category Code" || textBox.Text == "Name")
+            {
+                textBox.Text = string.Empty;
+                textBox.Foreground = Brushes.Black; // Change to your desired foreground color
+            }
+        }
+
+        private void AddCategoryPlaceholderText(object sender, RoutedEventArgs e)
+        {
+            var textBox = sender as TextBox;
+            if (textBox != null && string.IsNullOrEmpty(textBox.Text))
+            {
+                if (textBox.Name == "CategoryCodeTextBox") // Check the name of the TextBox
+                {
+                    textBox.Text = "Category Code"; // Placeholder text
+                }
+                else if (textBox.Name == "NameTextBox")
+                {
+                    textBox.Text = "Name"; // Placeholder text for name
+                }
+                textBox.Foreground = Brushes.Gray; // Change to your desired foreground color for placeholder
+            }
         }
 
 

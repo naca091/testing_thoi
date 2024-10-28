@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 C:\Users\ASUS\source\repos\PRN221_WPF\WarehouseManagementApp\App.xaml
-18-1074093506
+19-1113611238
 
-23-1481865049
+25-2142652683
 235-553866613
-AddAccountWindow.xaml;AddCategoryWindow.xaml;AddLotWindow.xaml;AddPartnerWindow.xaml;AddProductWindow.xaml;AddStockOutWindow.xaml;AddStorageAreaWindow.xaml;EditCategoryWindow.xaml;EditLotWindow.xaml;EditPartnerWindow.xaml;EditProductWindow.xaml;EditStockOutWindow.xaml;EditStorageAreaWindow.xaml;LoginWindow.xaml;LotDetailsWindow.xaml;MainWindow.xaml;ProductDetailsWindow.xaml;StockOutDetailsWindow.xaml;
+AddAccountWindow.xaml;AddCategoryWindow.xaml;AddLotWindow.xaml;AddPartnerWindow.xaml;AddProductWindow.xaml;AddStockOutWindow.xaml;AddStorageAreaWindow.xaml;EditCategoryWindow.xaml;EditLotWindow.xaml;EditPartnerWindow.xaml;EditProductWindow.xaml;EditStockOutWindow.xaml;EditStorageAreaWindow.xaml;LoginWindow.xaml;LotDetailsWindow.xaml;MainWindow.xaml;ProductDetailsWindow.xaml;StockOutDetailsWindow.xaml;UserControl1.xaml;
 
-False
+True
 
