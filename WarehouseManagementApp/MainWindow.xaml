@@ -175,7 +175,8 @@
                     <StackPanel Grid.Row="3" Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
                         <Button x:Name="AddCategoryButton" Content="Add Category" Width="100" Margin="5" Background="LightGreen" Click="AddCategory_Click"/>
                         <Button x:Name="EditCategoryButton" Content="Edit Category" Width="100" Margin="5" Background="LightYellow" Click="EditCategory_Click"/>
-                        <Button x:Name="DeleteCategoryButton" Content="Delete Category" Width="100" Margin="5" Background="LightCoral" Click="DeleteCategory_Click"/>
+                        <Button x:Name="BanCategoryButton" Content="Ban Category" Width="100" Margin="5" Background="LightCoral" Click="BanCategory_Click"/>
+                        <Button x:Name="UnbanCategoryButton" Content="Unban Category" Width="100" Margin="5" Background="LightSkyBlue" Click="UnbanCategory_Click"/>
                         <Button Content="Log Out" Width="100"  Click="LogoutButton_Click" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10"/>
 
                     </StackPanel>
@@ -423,6 +424,60 @@
                 </Grid>
             </TabItem>
             <!-- You can add more TabItems here for other functionalities -->
+            <TabItem Header="Dashboard">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Orientation="Vertical" Margin="10">
+                        <TextBlock Text="Statistics" FontSize="24" FontWeight="Bold" Margin="0,0,0,10"/>
+                        <WrapPanel>
+                            <Border Margin="10" Padding="10" Background="LightGray">
+                                <StackPanel>
+                                    <TextBlock Text="Total Products" FontSize="16" FontWeight="Bold"/>
+                                    <TextBlock x:Name="TotalProductsText" FontSize="28" FontWeight="Bold" />
+                                </StackPanel>
+                            </Border>
+                            <Border Margin="10" Padding="10" Background="LightGray">
+                                <StackPanel>
+                                    <TextBlock Text="Total Lots" FontSize="16" FontWeight="Bold"/>
+                                    <TextBlock x:Name="TotalLotsText" FontSize="28" FontWeight="Bold" />
+                                </StackPanel>
+                            </Border>
+                            <Border Margin="10" Padding="10" Background="LightGray">
+                                <StackPanel>
+                                    <TextBlock Text="Total Accounts" FontSize="16" FontWeight="Bold"/>
+                                    <TextBlock x:Name="TotalAccountsText" FontSize="28" FontWeight="Bold" />
+                                </StackPanel>
+                            </Border>
+                            <Border Margin="10" Padding="10" Background="LightGray">
+                                <StackPanel>
+                                    <TextBlock Text="Total Partners" FontSize="16" FontWeight="Bold"/>
+                                    <TextBlock x:Name="TotalPartnersText" FontSize="28" FontWeight="Bold" />
+                                </StackPanel>
+                            </Border>
+                            <Border Margin="10" Padding="10" Background="LightGray">
+                                <StackPanel>
+                                    <TextBlock Text="Total Categories" FontSize="16" FontWeight="Bold"/>
+                                    <TextBlock x:Name="TotalCategoriesText" FontSize="28" FontWeight="Bold" />
+                                </StackPanel>
+                            </Border>
+                            <Border Margin="10" Padding="10" Background="LightGray">
+                                <StackPanel>
+                                    <TextBlock Text="Total Stock Outs" FontSize="16" FontWeight="Bold"/>
+                                    <TextBlock x:Name="TotalStockOutsText" FontSize="28" FontWeight="Bold" />
+                                </StackPanel>
+                            </Border>
+                        </WrapPanel>
+                    </StackPanel>
+
+                    <ItemsControl Grid.Row="1" x:Name="ChartArea" Margin="10">
+                        <!-- Place for charts -->
+                    </ItemsControl>
+                </Grid>
+            </TabItem>
 
 
 

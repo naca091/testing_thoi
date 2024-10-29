@@ -54,12 +54,20 @@ namespace BusinessLogic
 
             return _productDAO.AddProduct(newProduct);
         }
-
+        public int GetTotalProducts()
+        {
+            return _productDAO.GetAllProducts().Count; // Adjust this method
+        }
 
         public Product GetProductById(int productId)
         {
             return _productDAO.GetProductById(productId);
         }
+        public List<Product> GetProductsByCategoryId(int categoryId)
+        {
+            return _productDAO.GetProductsByCategoryId(categoryId);
+        }
+
 
         private void ValidateProduct(Product product)
         {

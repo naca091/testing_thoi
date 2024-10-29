@@ -126,7 +126,6 @@ namespace WarehouseManagementApp
                 EditStockOutButton.Visibility = canSeeRole2OnlyButtons ? Visibility.Visible : Visibility.Collapsed;
                 AddCategoryButton.Visibility = canSeeRole2OnlyButtons ? Visibility.Visible : Visibility.Collapsed;
                 EditCategoryButton.Visibility = canSeeRole2OnlyButtons ? Visibility.Visible : Visibility.Collapsed;
-                DeleteCategoryButton.Visibility = canSeeRole2OnlyButtons ? Visibility.Visible : Visibility.Collapsed;
                 AddStorageAreaButton.Visibility = canSeeRole2OnlyButtons ? Visibility.Visible : Visibility.Collapsed;
                 EditStorageAreaButton.Visibility = canSeeRole2OnlyButtons ? Visibility.Visible : Visibility.Collapsed;
                 BanStorageAreaButton.Visibility = canSeeRole2OnlyButtons ? Visibility.Visible : Visibility.Collapsed;
@@ -433,36 +432,86 @@ namespace WarehouseManagementApp
         }
 
         // MainWindow.xaml.cs
-        private void DeleteCategory_Click(object sender, RoutedEventArgs e)
+        private void BanCategory_Click(object sender, RoutedEventArgs e)
         {
             if (CategoryDataGrid.SelectedItem is Category selectedCategory)
             {
-                var result = MessageBox.Show($"Are you sure you want to delete the category '{selectedCategory.Name}'?",
-                    "Confirm Delete", MessageBoxButton.YesNo, MessageBoxImage.Warning);
+                // Check if there are any products associated with the selected category
+                if (_productService.GetProductsByCategoryId(selectedCategory.CategoryId).Any())
+                {
+                    MessageBox.Show("Cannot ban this category because it has associated products.", "Ban Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
 
+                // Check if category is already banned
+                if (selectedCategory.Status == 0)
+                {
+                    MessageBox.Show("This category is already banned.", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+                    return;
+                }
+
+                // Confirm ban action
+                var result = MessageBox.Show("Are you sure you want to ban this category?", "Ban Category", MessageBoxButton.YesNo, MessageBoxImage.Warning);
                 if (result == MessageBoxResult.Yes)
                 {
                     try
                     {
-                        _categoryService.DeleteCategory(selectedCategory.CategoryId);
-                        LoadCategories(); // Refresh the categories list
-                        MessageBox.Show("Category deleted successfully.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
-                    }
-                    catch (InvalidOperationException ex)
-                    {
-                        MessageBox.Show(ex.Message, "Delete Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                        // Set status to 0 (banned) and update category in the database
+                        selectedCategory.Status = 0;
+                        _categoryService.UpdateCategory(selectedCategory);
+                        MessageBox.Show("Category has been banned successfully.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+
+                        LoadCategories(); // Refresh category list to reflect the status change
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                        MessageBox.Show($"Error banning category: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                     }
                 }
             }
             else
             {
-                MessageBox.Show("Please select a category to delete.", "No Category Selected", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show("Please select a category to ban.", "No Category Selected", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
+
+
+        private void UnbanCategory_Click(object sender, RoutedEventArgs e)
+        {
+            if (CategoryDataGrid.SelectedItem is Category selectedCategory)
+            {
+                // Check if category is already unbanned
+                if (selectedCategory.Status == 1)
+                {
+                    MessageBox.Show("This category is already unbanned.", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+                    return;
+                }
+
+                // Confirm unban action
+                var result = MessageBox.Show("Are you sure you want to unban this category?", "Unban Category", MessageBoxButton.YesNo, MessageBoxImage.Warning);
+                if (result == MessageBoxResult.Yes)
+                {
+                    try
+                    {
+                        // Set status to 1 (unbanned) and update category in the database
+                        selectedCategory.Status = 1;
+                        _categoryService.UpdateCategory(selectedCategory);
+                        MessageBox.Show("Category has been unbanned successfully.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+
+                        LoadCategories(); // Refresh category list to reflect the status change
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error unbanning category: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please select a category to unban.", "No Category Selected", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+        }
+
 
 
         private void categorySearchTextBox_TextChanged(object sender, TextChangedEventArgs e)

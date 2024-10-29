@@ -45,6 +45,12 @@ namespace DataAccess
             _context.SaveChanges();
         }
 
+        public List<Product> GetProductsByCategoryId(int categoryId)
+        {
+            return _context.Products.Where(p => p.CategoryId == categoryId).ToList();
+        }
+
+
         public void UpdateProductQuantity(int productId, int quantityToAdd)
         {
             var product = _context.Products.Find(productId);
