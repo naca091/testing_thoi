@@ -1,12 +1,13 @@
 ﻿<Window x:Class="WarehouseManagementApp.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:local="clr-namespace:WarehouseManagementApp"
-        Title="MainWindow" Height="450" Width="800"
+        xmlns:local="clr-namespace:WarehouseManagementApp" 
+        Title="MainWindow" Height="600" Width="800"
         WindowStartupLocation="CenterScreen"
-        Loaded="Window_Loaded">
+       >
+
     <Window.Resources>
-        <!-- Declare the StatusConverter resource -->
+        <local:EmptyStringToVisibilityConverter x:Key="EmptyStringToVisibilityConverter"/>
         <local:StatusConverter x:Key="StatusConverter"/>
     </Window.Resources>
     
@@ -413,8 +414,18 @@
                     </StackPanel>
                 </Grid>
             </TabItem>
-            
-            
+
+            <TabItem Header="Chat">
+                <Grid>
+                    <ListBox x:Name="MessagesList" Margin="10,10,10,50" />
+                    <TextBox x:Name="MessageInput" Margin="10,0,10,50" Height="40" VerticalAlignment="Bottom" />
+                    <Button x:Name="SendMessageButton" Content="Send" VerticalAlignment="Bottom" Height="40" Click="SendMessageButton_Click" />
+                </Grid>
+            </TabItem>
+            <!-- You can add more TabItems here for other functionalities -->
+
+
+
         </TabControl>
     </Grid>
 </Window>

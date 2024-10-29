@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",

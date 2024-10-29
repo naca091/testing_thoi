@@ -8,21 +8,20 @@ namespace WarehouseManagementApp
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            if (value is int status)
+            if (value is bool status)
             {
-                return status == 1 ? "Active" : "Inactive";
+                return status ? "Active" : "Inactive";
             }
             return "Unknown";
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            if (value is string statusText)
+            if (value is string stringValue)
             {
-                return statusText == "Active" ? 1 : 0;
+                return stringValue.Equals("Active", StringComparison.OrdinalIgnoreCase);
             }
-            return 0;
+            return false;
         }
     }
 }
-//setting status Active/ InActive

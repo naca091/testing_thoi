@@ -1,278 +1,299 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\",
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\editproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\editproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\businesslogic\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\dataaccess\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\editproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\editproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\addproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\addproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\lotdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\lotdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\productdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\productdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\businesslogic\\stockoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\stockoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\productdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\productdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\addproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\addproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\dataaccess\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\dataaccess\\storageareadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\storageareadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\businesslogic\\storageareaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\storageareaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\editstorageareawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\editstorageareawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\editstorageareawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\editstorageareawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\dataaccess\\models\\storagearea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\storagearea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\addstorageareawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\addstorageareawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\addstorageareawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\addstorageareawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\businesslogic\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\dataaccess\\categorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\categorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\editcategorywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\editcategorywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\editcategorywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\editcategorywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\addcategorywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\addcategorywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\addcategorywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\addcategorywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\dataaccess\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\addstockoutwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\addstockoutwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\addstockoutwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\addstockoutwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\editstockoutwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\editstockoutwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\editstockoutwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\editstockoutwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\dataaccess\\stockoutdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\stockoutdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\addlotwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\addlotwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\stockoutdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\stockoutdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\stockoutdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\stockoutdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\dataaccess\\models\\stockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\stockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\dataaccess\\models\\stockoutdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\stockoutdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\dataaccess\\lotdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\lotdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\businesslogic\\lotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\lotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\businesslogic\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\addlotwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\addlotwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\editlotwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\editlotwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\lotdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\lotdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\editlotwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\editlotwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\dataaccess\\models\\lotdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\lotdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\dataaccess\\models\\lot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\lot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\dataaccess\\partnerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\partnerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\businesslogic\\partnerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\partnerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\dataaccess\\prn221_warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\prn221_warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\dataaccess\\models\\partner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\partner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\businesslogic\\businesslogic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\desktop\\testing_thoi\\dataaccess\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\asus\\desktop\\testing_thoi\\businesslogic\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\asus\\desktop\\testing_thoi\\businesslogic\\businesslogic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\businesslogic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\dataaccess\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\chatconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\chatconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\emptystringtovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\emptystringtovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\statusconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\statusconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\obj\\Debug\\net7.0-windows\\MainWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WarehouseManagementApp\\obj\\Debug\\net7.0-windows\\MainWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\dataaccess\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\lotdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\lotdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\addaccountwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\addaccountwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\editproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\editproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\asus\\desktop\\testing_thoi\\businesslogic\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\desktop\\testing_thoi\\dataaccess\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\editproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\editproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\addproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\addproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\productdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\productdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\asus\\desktop\\testing_thoi\\businesslogic\\stockoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\stockoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\productdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\productdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\addproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\addproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\desktop\\testing_thoi\\dataaccess\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\desktop\\testing_thoi\\dataaccess\\storageareadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\storageareadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\asus\\desktop\\testing_thoi\\businesslogic\\storageareaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\storageareaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\editstorageareawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\editstorageareawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\editstorageareawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\editstorageareawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\desktop\\testing_thoi\\dataaccess\\models\\storagearea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\storagearea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\addstorageareawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\addstorageareawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\addstorageareawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\addstorageareawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\asus\\desktop\\testing_thoi\\businesslogic\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\desktop\\testing_thoi\\dataaccess\\categorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\categorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\editcategorywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\editcategorywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\editcategorywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\editcategorywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\addcategorywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\addcategorywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\addcategorywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\addcategorywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\desktop\\testing_thoi\\dataaccess\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\addstockoutwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\addstockoutwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\addstockoutwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\addstockoutwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\editstockoutwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\editstockoutwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\editstockoutwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\editstockoutwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\desktop\\testing_thoi\\dataaccess\\stockoutdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\stockoutdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\addlotwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\addlotwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\stockoutdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\stockoutdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\stockoutdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\stockoutdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\desktop\\testing_thoi\\dataaccess\\models\\stockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\stockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\desktop\\testing_thoi\\dataaccess\\models\\stockoutdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\stockoutdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\desktop\\testing_thoi\\dataaccess\\lotdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\lotdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\asus\\desktop\\testing_thoi\\businesslogic\\lotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\lotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\addlotwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\addlotwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\editlotwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\editlotwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\lotdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\lotdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\editlotwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\editlotwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\desktop\\testing_thoi\\dataaccess\\models\\lotdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\lotdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\desktop\\testing_thoi\\dataaccess\\models\\lot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\lot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\desktop\\testing_thoi\\dataaccess\\partnerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\partnerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\asus\\desktop\\testing_thoi\\businesslogic\\partnerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\partnerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\desktop\\testing_thoi\\dataaccess\\prn221_warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\prn221_warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\desktop\\testing_thoi\\dataaccess\\models\\partner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\partner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\desktop\\testing_thoi\\dataaccess\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\desktop\\testing_thoi\\dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\desktop\\testing_thoi\\dataaccess\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\dataaccess\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\desktop\\testing_thoi\\dataaccess\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21E06795-E385-4CED-8FA7-F9355509C355}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\warehousemanagementapp\\warehousemanagementapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|c:\\users\\asus\\desktop\\testing_thoi\\warehousemanagementapp\\warehousemanagementapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{198B8323-5DC3-4FF0-A633-28C43E9B1193}|WarehouseManagementApp\\WarehouseManagementApp.csproj|solutionrelative:warehousemanagementapp\\warehousemanagementapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\asus\\source\\repos\\prn221_wpf\\businesslogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\asus\\desktop\\testing_thoi\\businesslogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B06E0F4-2AEE-4820-B564-6461242FC02B}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotDetailWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WarehouseManagementApp\\LotDetailWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotDetailWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\CreateLotWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WarehouseManagementApp\\CreateLotWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\CreateLotWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotsPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WarehouseManagementApp\\LotsPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotsPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\CreateLotWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WarehouseManagementApp\\CreateLotWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\CreateLotWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotDetailWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WarehouseManagementApp\\LotDetailWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotDetailWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotsPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WarehouseManagementApp\\LotsPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotsPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\BusinessLogic\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -282,24 +303,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EditProductWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\EditProductWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\EditProductWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\EditProductWindow.xaml.cs",
-              "RelativeToolTip": "WarehouseManagementApp\\EditProductWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T10:41:51.297Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -307,36 +315,88 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EditProductWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\EditProductWindow.xaml",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\EditProductWindow.xaml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\EditProductWindow.xaml",
-              "RelativeToolTip": "WarehouseManagementApp\\EditProductWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-27T10:39:54.824Z",
+              "DocumentIndex": 2,
+              "Title": "AccountDAO.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\AccountDAO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\AccountDAO.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\AccountDAO.cs",
+              "RelativeToolTip": "DataAccess\\AccountDAO.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA7wDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T11:36:47.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\BusinessLogic\\AccountService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\AccountService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\BusinessLogic\\AccountService.cs",
+              "RelativeToolTip": "BusinessLogic\\AccountService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T11:36:42.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChatConnection.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\ChatConnection.cs",
+              "RelativeDocumentMoniker": "WarehouseManagementApp\\ChatConnection.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\ChatConnection.cs",
+              "RelativeToolTip": "WarehouseManagementApp\\ChatConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T10:49:12.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WarehouseManagementApp\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\MainWindow.xaml.cs",
               "RelativeToolTip": "WarehouseManagementApp\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADECAAAAAAAAAAAQwDcCAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAcwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T07:08:34.629Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\App.xaml",
+              "RelativeDocumentMoniker": "WarehouseManagementApp\\App.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\App.xaml",
+              "RelativeToolTip": "WarehouseManagementApp\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-24T07:25:49.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StatusConverter.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\StatusConverter.cs",
+              "RelativeDocumentMoniker": "WarehouseManagementApp\\StatusConverter.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\StatusConverter.cs",
+              "RelativeToolTip": "WarehouseManagementApp\\StatusConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T09:40:54.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WarehouseManagementApp\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\MainWindow.xaml",
               "RelativeToolTip": "WarehouseManagementApp\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-24T07:08:34.82Z",
@@ -344,24 +404,113 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddProductWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\AddProductWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\AddProductWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\AddProductWindow.xaml.cs",
-              "RelativeToolTip": "WarehouseManagementApp\\AddProductWindow.xaml.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAIwGMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WarehouseManagementApp\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "WarehouseManagementApp\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwC0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T10:06:09.598Z",
+              "WhenOpened": "2024-10-24T07:25:11.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "EmptyStringToVisibilityConverter.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\EmptyStringToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "WarehouseManagementApp\\EmptyStringToVisibilityConverter.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\EmptyStringToVisibilityConverter.cs",
+              "RelativeToolTip": "WarehouseManagementApp\\EmptyStringToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T09:41:55.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BusinessLogic.csproj",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\BusinessLogic\\BusinessLogic.csproj",
+              "RelativeDocumentMoniker": "BusinessLogic\\BusinessLogic.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\BusinessLogic\\BusinessLogic.csproj",
+              "RelativeToolTip": "BusinessLogic\\BusinessLogic.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-24T07:09:24.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.g.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\obj\\Debug\\net7.0-windows\\MainWindow.g.cs",
+              "RelativeDocumentMoniker": "WarehouseManagementApp\\obj\\Debug\\net7.0-windows\\MainWindow.g.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\obj\\Debug\\net7.0-windows\\MainWindow.g.cs",
+              "RelativeToolTip": "WarehouseManagementApp\\obj\\Debug\\net7.0-windows\\MainWindow.g.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T10:22:25.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "WarehouseManagementApp\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\AssemblyInfo.cs",
+              "RelativeToolTip": "WarehouseManagementApp\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T07:25:41.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddAccountWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\AddAccountWindow.xaml",
+              "RelativeDocumentMoniker": "WarehouseManagementApp\\AddAccountWindow.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\AddAccountWindow.xaml",
+              "RelativeToolTip": "WarehouseManagementApp\\AddAccountWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-29T09:37:48.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\BusinessLogic\\ProductService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\ProductService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\BusinessLogic\\ProductService.cs",
+              "RelativeToolTip": "BusinessLogic\\ProductService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T12:49:29.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LotDetailsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\LotDetailsWindow.xaml",
+              "RelativeDocumentMoniker": "WarehouseManagementApp\\LotDetailsWindow.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\LotDetailsWindow.xaml",
+              "RelativeToolTip": "WarehouseManagementApp\\LotDetailsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-24T12:45:18.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "ProductDAO.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\ProductDAO.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\ProductDAO.cs",
               "RelativeDocumentMoniker": "DataAccess\\ProductDAO.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\ProductDAO.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\ProductDAO.cs",
               "RelativeToolTip": "DataAccess\\ProductDAO.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAAwDwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -370,24 +519,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\BusinessLogic\\ProductService.cs",
-              "RelativeDocumentMoniker": "BusinessLogic\\ProductService.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\BusinessLogic\\ProductService.cs",
-              "RelativeToolTip": "BusinessLogic\\ProductService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwDgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T12:49:29.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 22,
               "Title": "ProductDetailsWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\ProductDetailsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\ProductDetailsWindow.xaml",
               "RelativeDocumentMoniker": "WarehouseManagementApp\\ProductDetailsWindow.xaml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\ProductDetailsWindow.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\ProductDetailsWindow.xaml",
               "RelativeToolTip": "WarehouseManagementApp\\ProductDetailsWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-27T10:21:21.059Z",
@@ -395,24 +531,75 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\appsettings.json",
+              "RelativeDocumentMoniker": "WarehouseManagementApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\appsettings.json",
+              "RelativeToolTip": "WarehouseManagementApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAADBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-24T07:11:34.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddProductWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\AddProductWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WarehouseManagementApp\\AddProductWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\AddProductWindow.xaml.cs",
+              "RelativeToolTip": "WarehouseManagementApp\\AddProductWindow.xaml.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAIwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T10:06:09.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EditProductWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\EditProductWindow.xaml",
+              "RelativeDocumentMoniker": "WarehouseManagementApp\\EditProductWindow.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\EditProductWindow.xaml",
+              "RelativeToolTip": "WarehouseManagementApp\\EditProductWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-27T10:39:54.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EditProductWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\EditProductWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WarehouseManagementApp\\EditProductWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\EditProductWindow.xaml.cs",
+              "RelativeToolTip": "WarehouseManagementApp\\EditProductWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T10:41:51.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "ProductDetailsWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\ProductDetailsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\ProductDetailsWindow.xaml.cs",
               "RelativeDocumentMoniker": "WarehouseManagementApp\\ProductDetailsWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\ProductDetailsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\ProductDetailsWindow.xaml.cs",
               "RelativeToolTip": "WarehouseManagementApp\\ProductDetailsWindow.xaml.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAIA0wB8AAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAMwB8AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T10:24:50.988Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 27,
               "Title": "EditStorageAreaWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\EditStorageAreaWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\EditStorageAreaWindow.xaml.cs",
               "RelativeDocumentMoniker": "WarehouseManagementApp\\EditStorageAreaWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\EditStorageAreaWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\EditStorageAreaWindow.xaml.cs",
               "RelativeToolTip": "WarehouseManagementApp\\EditStorageAreaWindow.xaml.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAuwCMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -421,36 +608,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LotDetailsWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotDetailsWindow.xaml",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\LotDetailsWindow.xaml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotDetailsWindow.xaml",
-              "RelativeToolTip": "WarehouseManagementApp\\LotDetailsWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-24T12:45:18.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 21,
               "Title": "StockOutService.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\BusinessLogic\\StockOutService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\BusinessLogic\\StockOutService.cs",
               "RelativeDocumentMoniker": "BusinessLogic\\StockOutService.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\BusinessLogic\\StockOutService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\BusinessLogic\\StockOutService.cs",
               "RelativeToolTip": "BusinessLogic\\StockOutService.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwEIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwEIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T07:23:50.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 23,
               "Title": "AddProductWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\AddProductWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\AddProductWindow.xaml",
               "RelativeDocumentMoniker": "WarehouseManagementApp\\AddProductWindow.xaml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\AddProductWindow.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\AddProductWindow.xaml",
               "RelativeToolTip": "WarehouseManagementApp\\AddProductWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-27T10:02:18.949Z",
@@ -458,24 +633,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 26,
               "Title": "StorageAreaService.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\BusinessLogic\\StorageAreaService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\BusinessLogic\\StorageAreaService.cs",
               "RelativeDocumentMoniker": "BusinessLogic\\StorageAreaService.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\BusinessLogic\\StorageAreaService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\BusinessLogic\\StorageAreaService.cs",
               "RelativeToolTip": "BusinessLogic\\StorageAreaService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAmwCoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAA4wCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T09:10:03.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 31,
               "Title": "AddStorageAreaWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\AddStorageAreaWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\AddStorageAreaWindow.xaml",
               "RelativeDocumentMoniker": "WarehouseManagementApp\\AddStorageAreaWindow.xaml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\AddStorageAreaWindow.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\AddStorageAreaWindow.xaml",
               "RelativeToolTip": "WarehouseManagementApp\\AddStorageAreaWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-27T09:29:06.964Z",
@@ -483,24 +658,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 24,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\Models\\Product.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\Models\\Product.cs",
               "RelativeDocumentMoniker": "DataAccess\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\Models\\Product.cs",
               "RelativeToolTip": "DataAccess\\Models\\Product.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAuwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA8wCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T07:22:08.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 25,
               "Title": "StorageAreaDAO.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\StorageAreaDAO.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\StorageAreaDAO.cs",
               "RelativeDocumentMoniker": "DataAccess\\StorageAreaDAO.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\StorageAreaDAO.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\StorageAreaDAO.cs",
               "RelativeToolTip": "DataAccess\\StorageAreaDAO.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAqwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -509,11 +684,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 28,
               "Title": "EditStorageAreaWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\EditStorageAreaWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\EditStorageAreaWindow.xaml",
               "RelativeDocumentMoniker": "WarehouseManagementApp\\EditStorageAreaWindow.xaml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\EditStorageAreaWindow.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\EditStorageAreaWindow.xaml",
               "RelativeToolTip": "WarehouseManagementApp\\EditStorageAreaWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-27T09:34:20.485Z",
@@ -521,11 +696,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 30,
               "Title": "AddStorageAreaWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\AddStorageAreaWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\AddStorageAreaWindow.xaml.cs",
               "RelativeDocumentMoniker": "WarehouseManagementApp\\AddStorageAreaWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\AddStorageAreaWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\AddStorageAreaWindow.xaml.cs",
               "RelativeToolTip": "WarehouseManagementApp\\AddStorageAreaWindow.xaml.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAQwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -534,11 +709,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 29,
               "Title": "StorageArea.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\Models\\StorageArea.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\Models\\StorageArea.cs",
               "RelativeDocumentMoniker": "DataAccess\\Models\\StorageArea.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\Models\\StorageArea.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\Models\\StorageArea.cs",
               "RelativeToolTip": "DataAccess\\Models\\StorageArea.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -547,11 +722,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 34,
               "Title": "EditCategoryWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\EditCategoryWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\EditCategoryWindow.xaml",
               "RelativeDocumentMoniker": "WarehouseManagementApp\\EditCategoryWindow.xaml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\EditCategoryWindow.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\EditCategoryWindow.xaml",
               "RelativeToolTip": "WarehouseManagementApp\\EditCategoryWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-26T20:08:24.57Z",
@@ -559,11 +734,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 32,
               "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\BusinessLogic\\CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\BusinessLogic\\CategoryService.cs",
               "RelativeDocumentMoniker": "BusinessLogic\\CategoryService.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\BusinessLogic\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\BusinessLogic\\CategoryService.cs",
               "RelativeToolTip": "BusinessLogic\\CategoryService.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAcwDkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -572,36 +747,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 35,
               "Title": "EditCategoryWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\EditCategoryWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\EditCategoryWindow.xaml.cs",
               "RelativeDocumentMoniker": "WarehouseManagementApp\\EditCategoryWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\EditCategoryWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\EditCategoryWindow.xaml.cs",
               "RelativeToolTip": "WarehouseManagementApp\\EditCategoryWindow.xaml.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAIBJwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T20:38:39.243Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 37,
               "Title": "AddCategoryWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\AddCategoryWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\AddCategoryWindow.xaml.cs",
               "RelativeDocumentMoniker": "WarehouseManagementApp\\AddCategoryWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\AddCategoryWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\AddCategoryWindow.xaml.cs",
               "RelativeToolTip": "WarehouseManagementApp\\AddCategoryWindow.xaml.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAmwBcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T19:00:21.273Z"
+              "WhenOpened": "2024-10-26T19:00:21.273Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 33,
               "Title": "CategoryDAO.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\CategoryDAO.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\CategoryDAO.cs",
               "RelativeDocumentMoniker": "DataAccess\\CategoryDAO.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\CategoryDAO.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\CategoryDAO.cs",
               "RelativeToolTip": "DataAccess\\CategoryDAO.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAQwEwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -610,509 +786,476 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 36,
               "Title": "AddCategoryWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\AddCategoryWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\AddCategoryWindow.xaml",
               "RelativeDocumentMoniker": "WarehouseManagementApp\\AddCategoryWindow.xaml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\AddCategoryWindow.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\AddCategoryWindow.xaml",
               "RelativeToolTip": "WarehouseManagementApp\\AddCategoryWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-26T15:09:08.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "StockOutDAO.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\StockOutDAO.cs",
-              "RelativeDocumentMoniker": "DataAccess\\StockOutDAO.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\StockOutDAO.cs",
-              "RelativeToolTip": "DataAccess\\StockOutDAO.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAADwv4YAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T07:12:52.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "AddLotWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\AddLotWindow.xaml",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\AddLotWindow.xaml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\AddLotWindow.xaml",
-              "RelativeToolTip": "WarehouseManagementApp\\AddLotWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-26T08:18:48.791Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "EditStockOutWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\EditStockOutWindow.xaml",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\EditStockOutWindow.xaml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\EditStockOutWindow.xaml",
-              "RelativeToolTip": "WarehouseManagementApp\\EditStockOutWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-26T08:09:35.575Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "AddStockOutWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\AddStockOutWindow.xaml",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\AddStockOutWindow.xaml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\AddStockOutWindow.xaml",
-              "RelativeToolTip": "WarehouseManagementApp\\AddStockOutWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-26T08:10:24.287Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\Models\\Category.cs",
-              "RelativeToolTip": "DataAccess\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T07:21:43.534Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AddStockOutWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\AddStockOutWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\AddStockOutWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\AddStockOutWindow.xaml.cs",
-              "RelativeToolTip": "WarehouseManagementApp\\AddStockOutWindow.xaml.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAmwIUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T08:54:41.668Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "EditStockOutWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\EditStockOutWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\EditStockOutWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\EditStockOutWindow.xaml.cs",
-              "RelativeToolTip": "WarehouseManagementApp\\EditStockOutWindow.xaml.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAuwHsAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T08:57:09.574Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "StockOutDetailsWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\StockOutDetailsWindow.xaml",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\StockOutDetailsWindow.xaml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\StockOutDetailsWindow.xaml",
-              "RelativeToolTip": "WarehouseManagementApp\\StockOutDetailsWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-26T08:10:12.9Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "StockOutDetailsWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\StockOutDetailsWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\StockOutDetailsWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\StockOutDetailsWindow.xaml.cs",
-              "RelativeToolTip": "WarehouseManagementApp\\StockOutDetailsWindow.xaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAcwCkAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T08:19:58.995Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "StockOut.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\Models\\StockOut.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Models\\StockOut.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\Models\\StockOut.cs",
-              "RelativeToolTip": "DataAccess\\Models\\StockOut.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBEAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T07:22:05.342Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "LotDAO.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\LotDAO.cs",
-              "RelativeDocumentMoniker": "DataAccess\\LotDAO.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\LotDAO.cs",
-              "RelativeToolTip": "DataAccess\\LotDAO.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAewFIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T07:12:18.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "LotService.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\BusinessLogic\\LotService.cs",
-              "RelativeDocumentMoniker": "BusinessLogic\\LotService.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\BusinessLogic\\LotService.cs",
-              "RelativeToolTip": "BusinessLogic\\LotService.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAIA0wDEAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T07:13:38.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\BusinessLogic\\UserService.cs",
-              "RelativeDocumentMoniker": "BusinessLogic\\UserService.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\BusinessLogic\\UserService.cs",
-              "RelativeToolTip": "BusinessLogic\\UserService.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAwwBcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T07:13:21.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "StockOutDetail.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\Models\\StockOutDetail.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Models\\StockOutDetail.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\Models\\StockOutDetail.cs",
-              "RelativeToolTip": "DataAccess\\Models\\StockOutDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T07:22:02.702Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "AddLotWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\AddLotWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\AddLotWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\AddLotWindow.xaml.cs",
-              "RelativeToolTip": "WarehouseManagementApp\\AddLotWindow.xaml.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAmwJQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T08:18:56.369Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "EditLotWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\EditLotWindow.xaml",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\EditLotWindow.xaml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\EditLotWindow.xaml",
-              "RelativeToolTip": "WarehouseManagementApp\\EditLotWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-25T05:27:06.941Z"
+              "WhenOpened": "2024-10-26T15:09:08.948Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 43,
-              "Title": "EditLotWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\EditLotWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\EditLotWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\EditLotWindow.xaml.cs",
-              "RelativeToolTip": "WarehouseManagementApp\\EditLotWindow.xaml.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAkwLYAAAAAAAAAAAAAAA==",
+              "Title": "StockOutDAO.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\StockOutDAO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\StockOutDAO.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\StockOutDAO.cs",
+              "RelativeToolTip": "DataAccess\\StockOutDAO.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAADwv4YAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T05:36:41.701Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "LotDetailsWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotDetailsWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\LotDetailsWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotDetailsWindow.xaml.cs",
-              "RelativeToolTip": "WarehouseManagementApp\\LotDetailsWindow.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwC0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T13:38:06.479Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "PartnerDAO.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\PartnerDAO.cs",
-              "RelativeDocumentMoniker": "DataAccess\\PartnerDAO.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\PartnerDAO.cs",
-              "RelativeToolTip": "DataAccess\\PartnerDAO.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAIwAsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T13:19:03.935Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "Lot.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\Models\\Lot.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Models\\Lot.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\Models\\Lot.cs",
-              "RelativeToolTip": "DataAccess\\Models\\Lot.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAswBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T07:21:46.056Z"
+              "WhenOpened": "2024-10-24T07:12:52.259Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 44,
-              "Title": "LotDetail.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\Models\\LotDetail.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Models\\LotDetail.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\Models\\LotDetail.cs",
-              "RelativeToolTip": "DataAccess\\Models\\LotDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T07:22:13.9Z"
+              "Title": "AddLotWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\AddLotWindow.xaml",
+              "RelativeDocumentMoniker": "WarehouseManagementApp\\AddLotWindow.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\AddLotWindow.xaml",
+              "RelativeToolTip": "WarehouseManagementApp\\AddLotWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-26T08:18:48.791Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "LoginWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LoginWindow.xaml",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\LoginWindow.xaml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LoginWindow.xaml",
-              "RelativeToolTip": "WarehouseManagementApp\\LoginWindow.xaml",
+              "DocumentIndex": 41,
+              "Title": "EditStockOutWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\EditStockOutWindow.xaml",
+              "RelativeDocumentMoniker": "WarehouseManagementApp\\EditStockOutWindow.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\EditStockOutWindow.xaml",
+              "RelativeToolTip": "WarehouseManagementApp\\EditStockOutWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-24T07:25:02.438Z"
+              "WhenOpened": "2024-10-26T08:09:35.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AddStockOutWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\AddStockOutWindow.xaml",
+              "RelativeDocumentMoniker": "WarehouseManagementApp\\AddStockOutWindow.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\AddStockOutWindow.xaml",
+              "RelativeToolTip": "WarehouseManagementApp\\AddStockOutWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-26T08:10:24.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\Models\\Category.cs",
+              "RelativeToolTip": "DataAccess\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T07:21:43.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AddStockOutWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\AddStockOutWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WarehouseManagementApp\\AddStockOutWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\AddStockOutWindow.xaml.cs",
+              "RelativeToolTip": "WarehouseManagementApp\\AddStockOutWindow.xaml.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAmwIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T08:54:41.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "EditStockOutWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\EditStockOutWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WarehouseManagementApp\\EditStockOutWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\EditStockOutWindow.xaml.cs",
+              "RelativeToolTip": "WarehouseManagementApp\\EditStockOutWindow.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAuwHsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T08:57:09.574Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 46,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\App.xaml",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\App.xaml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\App.xaml",
-              "RelativeToolTip": "WarehouseManagementApp\\App.xaml",
+              "Title": "StockOutDetailsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\StockOutDetailsWindow.xaml",
+              "RelativeDocumentMoniker": "WarehouseManagementApp\\StockOutDetailsWindow.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\StockOutDetailsWindow.xaml",
+              "RelativeToolTip": "WarehouseManagementApp\\StockOutDetailsWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-24T07:25:49.687Z",
+              "WhenOpened": "2024-10-26T08:10:12.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "StockOutDetailsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\StockOutDetailsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WarehouseManagementApp\\StockOutDetailsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\StockOutDetailsWindow.xaml.cs",
+              "RelativeToolTip": "WarehouseManagementApp\\StockOutDetailsWindow.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAcwCkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T08:19:58.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "StockOut.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\Models\\StockOut.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Models\\StockOut.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\Models\\StockOut.cs",
+              "RelativeToolTip": "DataAccess\\Models\\StockOut.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA8wBEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T07:22:05.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 49,
-              "Title": "PartnerService.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\BusinessLogic\\PartnerService.cs",
-              "RelativeDocumentMoniker": "BusinessLogic\\PartnerService.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\BusinessLogic\\PartnerService.cs",
-              "RelativeToolTip": "BusinessLogic\\PartnerService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAkwBkAAAAAAAAAAAAAAA==",
+              "Title": "LotDAO.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\LotDAO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\LotDAO.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\LotDAO.cs",
+              "RelativeToolTip": "DataAccess\\LotDAO.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAIA0wFIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T13:18:23.208Z"
+              "WhenOpened": "2024-10-24T07:12:18.688Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 50,
-              "Title": "PRN221_Warehouse.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\PRN221_Warehouse.cs",
-              "RelativeDocumentMoniker": "DataAccess\\PRN221_Warehouse.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\PRN221_Warehouse.cs",
-              "RelativeToolTip": "DataAccess\\PRN221_Warehouse.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAYwC8AAAAgAAAAAAAAAA==",
+              "Title": "LotService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\BusinessLogic\\LotService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\LotService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\BusinessLogic\\LotService.cs",
+              "RelativeToolTip": "BusinessLogic\\LotService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAMwDEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T07:20:46.294Z"
+              "WhenOpened": "2024-10-24T07:13:38.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\BusinessLogic\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\PRN221_WPF\\BusinessLogic\\UserService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\BusinessLogic\\UserService.cs",
+              "RelativeToolTip": "..\\..\\source\\repos\\PRN221_WPF\\BusinessLogic\\UserService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T07:13:21.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "StockOutDetail.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\Models\\StockOutDetail.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Models\\StockOutDetail.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\Models\\StockOutDetail.cs",
+              "RelativeToolTip": "DataAccess\\Models\\StockOutDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T07:22:02.702Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 51,
-              "Title": "Partner.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\Models\\Partner.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Models\\Partner.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\Models\\Partner.cs",
-              "RelativeToolTip": "DataAccess\\Models\\Partner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
+              "Title": "AddLotWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\AddLotWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WarehouseManagementApp\\AddLotWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\AddLotWindow.xaml.cs",
+              "RelativeToolTip": "WarehouseManagementApp\\AddLotWindow.xaml.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAmwJQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T07:22:11.224Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "LoginWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LoginWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\LoginWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LoginWindow.xaml.cs",
-              "RelativeToolTip": "WarehouseManagementApp\\LoginWindow.xaml.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAYwC0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T07:25:11.756Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "BusinessLogic.csproj",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\BusinessLogic\\BusinessLogic.csproj",
-              "RelativeDocumentMoniker": "BusinessLogic\\BusinessLogic.csproj",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\BusinessLogic\\BusinessLogic.csproj",
-              "RelativeToolTip": "BusinessLogic\\BusinessLogic.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-24T07:09:24.334Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\appsettings.json",
-              "RelativeDocumentMoniker": "DataAccess\\appsettings.json",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\appsettings.json",
-              "RelativeToolTip": "DataAccess\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-24T07:38:42.038Z"
+              "WhenOpened": "2024-10-26T08:18:56.369Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 52,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\appsettings.json",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\appsettings.json",
-              "RelativeToolTip": "WarehouseManagementApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAADBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-24T07:11:34.538Z"
+              "Title": "EditLotWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\EditLotWindow.xaml",
+              "RelativeDocumentMoniker": "WarehouseManagementApp\\EditLotWindow.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\EditLotWindow.xaml",
+              "RelativeToolTip": "WarehouseManagementApp\\EditLotWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-25T05:27:06.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "EditLotWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\EditLotWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WarehouseManagementApp\\EditLotWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\EditLotWindow.xaml.cs",
+              "RelativeToolTip": "WarehouseManagementApp\\EditLotWindow.xaml.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAkwLYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T05:36:41.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "LotDetailsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\LotDetailsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WarehouseManagementApp\\LotDetailsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\LotDetailsWindow.xaml.cs",
+              "RelativeToolTip": "WarehouseManagementApp\\LotDetailsWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:38:06.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "PartnerDAO.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\PartnerDAO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\PartnerDAO.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\PartnerDAO.cs",
+              "RelativeToolTip": "DataAccess\\PartnerDAO.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:19:03.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Lot.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\Models\\Lot.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Models\\Lot.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\Models\\Lot.cs",
+              "RelativeToolTip": "DataAccess\\Models\\Lot.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T07:21:46.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "LotDetail.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\Models\\LotDetail.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Models\\LotDetail.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\Models\\LotDetail.cs",
+              "RelativeToolTip": "DataAccess\\Models\\LotDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T07:22:13.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "WarehouseManagementApp\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\LoginWindow.xaml",
+              "RelativeToolTip": "WarehouseManagementApp\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-24T07:25:02.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "PartnerService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\BusinessLogic\\PartnerService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\PartnerService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\BusinessLogic\\PartnerService.cs",
+              "RelativeToolTip": "BusinessLogic\\PartnerService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:18:23.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "PRN221_Warehouse.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\PRN221_Warehouse.cs",
+              "RelativeDocumentMoniker": "DataAccess\\PRN221_Warehouse.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\PRN221_Warehouse.cs",
+              "RelativeToolTip": "DataAccess\\PRN221_Warehouse.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwC8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T07:20:46.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Partner.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\Models\\Partner.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Models\\Partner.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\Models\\Partner.cs",
+              "RelativeToolTip": "DataAccess\\Models\\Partner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T07:22:11.224Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 62,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\appsettings.json",
+              "RelativeDocumentMoniker": "DataAccess\\appsettings.json",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\appsettings.json",
+              "RelativeToolTip": "DataAccess\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-24T07:38:42.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
               "Title": "LotDetailWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotDetailWindow.xaml",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\LotDetailWindow.xaml",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotDetailWindow.xaml",
               "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotDetailWindow.xaml",
-              "RelativeToolTip": "WarehouseManagementApp\\LotDetailWindow.xaml",
+              "RelativeToolTip": "..\\..\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotDetailWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-24T07:28:31.415Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 69,
               "Title": "CreateLotWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\CreateLotWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\CreateLotWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\CreateLotWindow.xaml.cs",
               "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\CreateLotWindow.xaml.cs",
-              "RelativeToolTip": "WarehouseManagementApp\\CreateLotWindow.xaml.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwCwAAAAFAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\CreateLotWindow.xaml.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T07:28:00.15Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 70,
               "Title": "LotsPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotsPage.xaml.cs",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\LotsPage.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotsPage.xaml.cs",
               "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotsPage.xaml.cs",
-              "RelativeToolTip": "WarehouseManagementApp\\LotsPage.xaml.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAswDkAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotsPage.xaml.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T07:27:06.352Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 63,
               "Title": "DataAccess.csproj",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\DataAccess.csproj",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\DataAccess.csproj",
               "RelativeDocumentMoniker": "DataAccess\\DataAccess.csproj",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\DataAccess.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\DataAccess.csproj",
               "RelativeToolTip": "DataAccess\\DataAccess.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-24T07:09:26.037Z"
+              "WhenOpened": "2024-10-24T07:09:26.037Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 71,
               "Title": "CreateLotWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\CreateLotWindow.xaml",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\CreateLotWindow.xaml",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\CreateLotWindow.xaml",
               "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\CreateLotWindow.xaml",
-              "RelativeToolTip": "WarehouseManagementApp\\CreateLotWindow.xaml",
+              "RelativeToolTip": "..\\..\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\CreateLotWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-24T07:27:48.924Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 72,
               "Title": "LotDetailWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotDetailWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\LotDetailWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotDetailWindow.xaml.cs",
               "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotDetailWindow.xaml.cs",
-              "RelativeToolTip": "WarehouseManagementApp\\LotDetailWindow.xaml.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCYAAAAFAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotDetailWindow.xaml.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T07:28:53.75Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 73,
               "Title": "LotsPage.xaml",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotsPage.xaml",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\LotsPage.xaml",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotsPage.xaml",
               "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotsPage.xaml",
-              "RelativeToolTip": "WarehouseManagementApp\\LotsPage.xaml",
+              "RelativeToolTip": "..\\..\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\LotsPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-24T07:26:51.982Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "WarehouseManagementApp\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\AssemblyInfo.cs",
-              "RelativeToolTip": "WarehouseManagementApp\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T07:25:41.98Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 64,
               "Title": "Account.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\Models\\Account.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\Models\\Account.cs",
               "RelativeDocumentMoniker": "DataAccess\\Models\\Account.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\Models\\Account.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\Models\\Account.cs",
               "RelativeToolTip": "DataAccess\\Models\\Account.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T07:21:38.343Z"
+              "WhenOpened": "2024-10-24T07:21:38.343Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 66,
               "Title": "WarehouseManagementApp.csproj",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\WarehouseManagementApp.csproj",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\WarehouseManagementApp.csproj",
               "RelativeDocumentMoniker": "WarehouseManagementApp\\WarehouseManagementApp.csproj",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\WarehouseManagementApp\\WarehouseManagementApp.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\WarehouseManagementApp\\WarehouseManagementApp.csproj",
               "RelativeToolTip": "WarehouseManagementApp\\WarehouseManagementApp.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-24T07:08:53.528Z"
+              "WhenOpened": "2024-10-24T07:08:53.528Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 65,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\Class1.cs",
               "RelativeDocumentMoniker": "DataAccess\\Class1.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\DataAccess\\Class1.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\DataAccess\\Class1.cs",
               "RelativeToolTip": "DataAccess\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T07:07:47.623Z"
+              "WhenOpened": "2024-10-24T07:07:47.623Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 67,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\BusinessLogic\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\BusinessLogic\\Class1.cs",
               "RelativeDocumentMoniker": "BusinessLogic\\Class1.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\PRN221_WPF\\BusinessLogic\\Class1.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testing_thoi\\BusinessLogic\\Class1.cs",
               "RelativeToolTip": "BusinessLogic\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T07:08:20.518Z"
+              "WhenOpened": "2024-10-24T07:08:20.518Z",
+              "EditorCaption": ""
             }
           ]
         }

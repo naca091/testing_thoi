@@ -1,6 +1,8 @@
 ﻿using BusinessLogic;
 using DataAccess;
 using DataAccess.Models;
+using Microsoft.AspNetCore.SignalR.Client;
+using System.Collections.ObjectModel;
 using System.Globalization;
 using System.Text;
 using System.Windows;
@@ -24,6 +26,8 @@ namespace WarehouseManagementApp
         private readonly CategoryService _categoryService;
         private readonly StorageAreaService _storageAreaService;
         private readonly AccountService _accountService;
+        private readonly ChatConnection _chatConnection;
+
 
 
 
@@ -32,6 +36,12 @@ namespace WarehouseManagementApp
         {
 
             InitializeComponent();
+            _chatConnection = new ChatConnection(
+                "http://localhost:6080/chatHub", // Should match your server URL
+                MessagesList,
+                Dispatcher
+            );
+            DataContext = this;
             ConfigureTabItemVisibility();
             ConfigureButtonVisibility();
             var context = new PRN221_Warehouse();
@@ -53,6 +63,17 @@ namespace WarehouseManagementApp
             LoadLots();
             LoadStockOuts();
             LoadCategories(); // Load categories on startup
+        }
+
+        private async void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            await _chatConnection.EnsureConnectedAsync();
+        }
+
+        private async void SendMessageButton_Click(object sender, RoutedEventArgs e)
+        {
+            await _chatConnection.SendMessageAsync("User", MessageInput.Text);
+            MessageInput.Clear();
         }
 
         //config tab item Account for Admin
@@ -154,10 +175,7 @@ namespace WarehouseManagementApp
 
 
 
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            // Load initial data when the window is loaded
-        }
+
 
         private void LoadLots()
         {
